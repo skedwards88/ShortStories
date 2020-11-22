@@ -21,6 +21,8 @@ jobs:
     - name: run script
       run: |
         python run.py
+      env:
+        USERNAME: ${{ secrets.REDDIT_USERNAME }}
       #env:
         #key: ${{ secrets.key }} # if run.py requires passwords..etc, set it as secrets
     #- name: export index
