@@ -1,4 +1,4 @@
 print("working")
 import os
-unm = os.environ['REDDIT_USERNAME']
-print(unm)
+# unm = os.environ['REDDIT_USERNAME']
+print(os.environ)
