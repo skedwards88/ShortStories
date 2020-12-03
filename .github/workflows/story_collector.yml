@@ -25,3 +25,6 @@ jobs:
         dir
       env:
         USERNAME: ${{ secrets.REDDIT_USERNAME }}
+    - name: check again
+      run: |
+        dir
