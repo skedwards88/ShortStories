@@ -1,6 +1,6 @@
 name: Python package
 
-on: workflow_dispatch
+on: [push, workflow_dispatch]
 
 jobs:
   build:
@@ -20,14 +20,12 @@ jobs:
         pip install requests
     - name: run script
       run: |
-        dir
-        python run.py
-        dir
+        output=$(python run.py)
       env:
         USERNAME: ${{ secrets.REDDIT_USERNAME }}
     - name: check again
       run: |
-        dir
+        echo "${{ steps.step1.outputs }}"
     - name: upload
       uses: actions/upload-artifact@v2
       with:
