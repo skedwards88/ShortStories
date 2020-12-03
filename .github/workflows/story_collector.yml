@@ -23,9 +23,3 @@ jobs:
         python run.py
       env:
         USERNAME: ${{ secrets.REDDIT_USERNAME }}
-    - with: 
-        inp: inp
-      #env:
-        #key: ${{ secrets.key }} # if run.py requires passwords..etc, set it as secrets
-    #- name: export index
-      # use crosponding script or actions to help export.
