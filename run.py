@@ -5,4 +5,6 @@ print("working")
 filename = "mydir/test.txt"
 with open(filename, 'w') as file:
   file.write('hi')
-print('test output')
+filename = "mydir/test2.txt"
+with open(filename, 'w') as file:
+  file.write('hi2')
