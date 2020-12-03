@@ -28,3 +28,8 @@ jobs:
     - name: check again
       run: |
         dir
+    - name: upload
+      uses: actions/upload-artifact@v2
+      with:
+        name: myfile
+        path: test.txt
