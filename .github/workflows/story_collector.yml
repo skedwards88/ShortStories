@@ -21,6 +21,7 @@ jobs:
     - name: run script
       run: |
         output=$(python run.py)
+        id = step1
       env:
         USERNAME: ${{ secrets.REDDIT_USERNAME }}
     - name: check again
