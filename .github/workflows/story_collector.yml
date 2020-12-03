@@ -20,6 +20,8 @@ jobs:
         pip install requests
     - name: run script
       run: |
+        dir
         python run.py
+        dir
       env:
         USERNAME: ${{ secrets.REDDIT_USERNAME }}
