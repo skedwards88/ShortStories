@@ -18,15 +18,16 @@ jobs:
         pip install requests
     - name: run script
       run: |
-        mkdir mydir
-        python run.py
+        mkdir raw_stories
+        python story_collector.py
       env:
-        USERNAME: ${{ secrets.REDDIT_USERNAME }}
-    - name: check again
-      run: |
-        dir
+        REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID}}
+        REDDIT_SECRET: ${{ secrets.REDDIT_SECRET}}
+        REDDIT_USERNAME: ${{ secrets.REDDIT_USERNAME}}
+        REDDIT_PASSWORD: ${{ secrets.REDDIT_PASSWORD}}
+        REDDIT_COLIN_USERNAME: ${{ secrets.REDDIT_COLIN_USERNAME}}
     - name: upload
       uses: actions/upload-artifact@v2
       with:
-        name: myfile
-        path: mydir
+        name: raw_stories
+        path: raw_stories
