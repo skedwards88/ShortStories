@@ -3,32 +3,42 @@ name: Python package
 on: [push, workflow_dispatch]
 
 jobs:
-  build:
-
+  test:
     runs-on: ubuntu-latest
-
     steps:
-    - name: check out repo content
-      uses: actions/checkout@v2
-    - name: Set up Python 3.9
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.9'
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install requests
-    - name: run script
-      run: |
-        output=$(python run.py)
-        id = step1
-      env:
-        USERNAME: ${{ secrets.REDDIT_USERNAME }}
-    - name: check again
-      run: |
-        echo "${{ steps.step1.outputs }}"
-    - name: upload
-      uses: actions/upload-artifact@v2
-      with:
-        name: myfile
-        path: test.txt
+      - uses: actions/checkout@v2.1.0
+      - run: |
+          output=$(python run.py)
+          echo "::set-output name=changelog::$output"
+        id: step1
+      - name: Print changelog
+        run: echo "${{ steps.step1.outputs.changelog }}"
+
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+#     steps:
+#     - name: check out repo content
+#       uses: actions/checkout@v2
+#     - name: Set up Python 3.9
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: '3.9'
+#     - name: Install dependencies
+#       run: |
+#         python -m pip install --upgrade pip
+#         pip install requests
+#     - name: run script
+#       run: |
+#         output=$(python run.py)
+#         id = step1
+#       env:
+#         USERNAME: ${{ secrets.REDDIT_USERNAME }}
+#     - name: check again
+#       run: |
+#         echo "${{ steps.step1.outputs }}"
+#     - name: upload
+#       uses: actions/upload-artifact@v2
+#       with:
+#         name: myfile
+#         path: test.txt
