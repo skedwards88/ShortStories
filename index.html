@@ -154,9 +154,9 @@
       console.log('injecting')
       var storyParent = document.getElementById("stories");
       var newDiv = document.createElement("div");
-      // const newContent = document.createTextNode("Hi there and greetings!"); 
       txt = JSON.stringify(data);
-      newDiv.appendChild(txt);  
+      const newContent = document.createTextNode(txt); 
+      newDiv.appendChild(newContent);  
       storyParent.appendChild(newDiv);  
 
     }
