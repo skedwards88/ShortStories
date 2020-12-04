@@ -2,7 +2,10 @@
 <!-- add option to expand/collapse all -->
 <!-- add way to filter by tag -->
 <!-- add way to sort by most recent/oldest -->
-<!--  -->
+<!--  https://stackoverflow.com/questions/2033711/how-can-i-attach-meta-data-to-a-dom-node -->
+<!-- make reddit fetching script into gh action -->
+<!-- when hide expanded, need to hide story too -->
+<!-- need to handle story with multiple categories -->
 <!--  -->
 <!DOCTYPE html>
 <html>
@@ -22,20 +25,34 @@
   <input type="checkbox" checked="true" onclick="togglecheck(this, 'humor')" ; />Humor<br />
   <input type="checkbox" checked="true" onclick="togglecheck(this, 'scifi')" ; />SciFi<br />
 
-  <button class="collapsible filterDiv fantasy">Fantasy story</button>
+  <button data-fantasy="true" class="collapsible filterDiv fantasy">Fantasy story</button>
   <div class="content">
     <p>hijklmnop</p>
   </div>
-  <button class="collapsible filterDiv fantasy humor">Funny fantasy story</button>
+  <button data-fantasy="true" class="collapsible filterDiv fantasy humor">Funny fantasy story</button>
   <div class="content">
     <p>hijklmnop</p>
   </div>
-  <button class="collapsible filterDiv fantasy">Fantasy story</button>
+  <button data-fantasy="true" class="collapsible filterDiv fantasy">Fantasy story</button>
   <div class="content">
     <p>qrstuvwxyz</p>
   </div>
 
+  <div id="stories"></div>
+
   <script>
+
+    var storyParent = document.getElementById("stories");
+    var storydir = '/Users/skedwards88/projects/ShortStories/story-data/stories'
+    for (i = 0; i < 3; i++) {
+      var newDiv = document.createElement("div")
+      const newContent = document.createTextNode("Hi there and greetings!"); 
+      newDiv.appendChild(newContent);  
+      storyParent.appendChild(newDiv);  
+
+    }
+
+
     var coll = document.getElementsByClassName("collapsible");
     var i;
 
