@@ -149,7 +149,11 @@
     }
 
     showall()
-
+    console.log('PREF')
+    fetch('stories.json')
+      .then(response => response.json())
+      .then(data => console.log(data));
+    console.log('POSTF')
   </script>
 
 </body>
