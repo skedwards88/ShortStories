@@ -1,16 +1,41 @@
 {
-    "2020-10-02-1": {
-        "author": "Colin Thom",
-        "date": "2020-11-02",
-        "tags": ["fantasy", "humor"],
-        "text": "gullible girl delivers sweets. Wolf gets dinner. Yum!",
-        "title": "riding hood"
-    },
-    "2020-10-02-2": {
-        "author": "Colin Thom",
-        "date": "2020-11-02",
-        "tags": ["fantasy", "humor"],
-        "text": "gullible girl delivers sweets. Wolf gets dinner. Yum!",
-        "title": "riding hood"
-    }
-}
+    "squadName": "Super hero squad",
+    "homeTown": "Metro City",
+    "formed": 2016,
+    "secretBase": "Super tower",
+    "active": true,
+    "members": [
+      {
+        "name": "Molecule Man",
+        "age": 29,
+        "secretIdentity": "Dan Jukes",
+        "powers": [
+          "Radiation resistance",
+          "Turning tiny",
+          "Radiation blast"
+        ]
+      },
+      {
+        "name": "Madame Uppercut",
+        "age": 39,
+        "secretIdentity": "Jane Wilson",
+        "powers": [
+          "Million tonne punch",
+          "Damage resistance",
+          "Superhuman reflexes"
+        ]
+      },
+      {
+        "name": "Eternal Flame",
+        "age": 1000000,
+        "secretIdentity": "Unknown",
+        "powers": [
+          "Immortality",
+          "Heat Immunity",
+          "Inferno",
+          "Teleportation",
+          "Interdimensional travel"
+        ]
+      }
+    ]
+  }
