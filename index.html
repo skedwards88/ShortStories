@@ -149,10 +149,21 @@
     }
 
     showall()
+
+    function inject(data) {
+      console.log('injecting')
+      var storyParent = document.getElementById("stories");
+      var newDiv = document.createElement("div");
+      // const newContent = document.createTextNode("Hi there and greetings!"); 
+      newDiv.appendChild(data);  
+      storyParent.appendChild(newDiv);  
+
+    }
+
     console.log('PREF')
-    fetch('stories.json')
+    fetch('story-data/stories.json')
       .then(response => response.json())
-      .then(data => console.log(data));
+      .then(data => inject(data));
     console.log('POSTF')
   </script>
 
