@@ -155,7 +155,8 @@
       var storyParent = document.getElementById("stories");
       var newDiv = document.createElement("div");
       // const newContent = document.createTextNode("Hi there and greetings!"); 
-      newDiv.appendChild(data);  
+      txt = JSON.stringify(data);
+      newDiv.appendChild(txt);  
       storyParent.appendChild(newDiv);  
 
     }
