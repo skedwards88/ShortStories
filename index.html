@@ -166,6 +166,19 @@
       .then(response => response.json())
       .then(data => inject(data));
     console.log('POSTF')
+
+    console.log('writing');
+
+
+    var fs = require('fs');
+    console.log('writing');
+
+    fs.appendFile('test.txt', ' This is my text.', function (err) {
+      if (err) throw err;
+      console.log('Updated!');
+    });
+
+
   </script>
 
 </body>
