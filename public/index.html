@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Short stories by Colin Thom" />
+        <title>Short Stories</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+            <header>
+                <h1>Short Stories</h1>
+            </header>
+
+            <input type="checkbox" checked="true" id="checkall" onclick="toggleall(this);" />Show all<br />
+            <input type="checkbox" checked="true" onclick="togglecheck(this, 'fantasy')" ; />Fantasy<br />
+            <input type="checkbox" checked="true" onclick="togglecheck(this, 'humor')" ; />Humor<br />
+            <input type="checkbox" checked="true" onclick="togglecheck(this, 'scifi')" ; />SciFi<br />
+                    
+            <div id="stories"></div>
+
+            <div class="stories">
+            <div class="story">
+                <button data-fantasy="true" class="collapsible filterDiv fantasy humor">The Princess and the Dragon</button>
+                <div class="content">
+                  <p><p>Once upon a time there was a princess who conquered a dragon to save a prince. Then she left him for more adventures.</p>
+</p>
+                </div></div><div class="story">
+                <button data-fantasy="true" class="collapsible filterDiv scifi">The Four Little Pigs</button>
+                <div class="content">
+                  <p><p>The fourth pig lived in a van and just drove away from the wolf. Puff puff puff.</p>
+</p>
+                </div></div>
+        </div>
+
+            <footer>
+                <p>© 2020 Colin Thom</p>
+            </footer>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>

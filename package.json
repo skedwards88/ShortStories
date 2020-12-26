@@ -1,0 +1,29 @@
+{
+  "name": "ShortStories",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skedwards88/ShortStories.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skedwards88/ShortStories/issues"
+  },
+  "homepage": "https://github.com/skedwards88/ShortStories#readme",
+  "dependencies": {
+    "front-matter": "^4.0.2",
+    "highlight.js": "^10.5.0",
+    "marked": "^1.2.7"
+  }
+}
