@@ -1,3 +1,7 @@
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
 .collapsible {
     background-color: #777;
     color: white;
