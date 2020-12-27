@@ -17,24 +17,25 @@
     <div id="categories">
         <input type="checkbox" checked="true" id="checkAll" name="checkAll" onclick="toggleAll(this)">
         <label for="checkAll">Show all</label><br>        
-        <input type="checkbox" checked="true" id="Fantasy" name="Fantasy" class="category" onclick="toggleCheck(this, 'Fantasy')">
+        <input type="checkbox" checked="true" id="Fantasy" name="Fantasy" class="category" onclick="toggleCategory(this, 'Fantasy')">
         <label for="Fantasy">Fantasy</label><br>
-        <input type="checkbox" checked="true" id="Humor" name="Humor" class="category" onclick="toggleCheck(this, 'Humor')">
+        <input type="checkbox" checked="true" id="Humor" name="Humor" class="category" onclick="toggleCategory(this, 'Humor')">
         <label for="Humor">Humor</label><br>
-        <input type="checkbox" checked="true" id="SciFi" name="SciFi" class="category" onclick="toggleCheck(this, 'SciFi')">
+        <input type="checkbox" checked="true" id="SciFi" name="SciFi" class="category" onclick="toggleCategory(this, 'SciFi')">
         <label for="SciFi">SciFi</label><br>
     </div>
     <button id="showHideButton" onclick="expandCollapseAll(this)">Expand All</button>
+    <button id="reverseOrder" onclick="reverseOrder(this)">Oldest first</button>
 
-    <div class="stories">
-        <div class="story Fantasy Humor">
+    <div id="stories" class="stories">
+        <div class="story show Fantasy Humor">
             <details>
             <summary>The Princess and the Dragon</summary>
             <div class="content">
                 <p>Once upon a time there was a princess who conquered a dragon to save a prince. Then she left the prince for more adventures.</p>
             </div>
         </div>
-        <div class="story Humor SciFi">
+        <div class="story show Humor SciFi">
             <details>
             <summary>The Four Little Pigs</summary>
             <div class="content">

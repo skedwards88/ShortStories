@@ -1,4 +1,3 @@
-// add way to sort by most recent/oldest
 //  https://stackoverflow.com/questions/2033711/how-can-i-attach-meta-data-to-a-dom-node
 // update gh action to get posts into md file format
 // update gh action to include uid in file name to easily compare edited vs new
@@ -20,8 +19,6 @@ function show(category) {
 }
 
 function hide(category) {
-    var storyDivs = document.getElementsByClassName("story");
-
     // Figure out which categories are checked
     var checkboxes = document.getElementsByClassName('category');
     var checkedCategories = [];
@@ -31,7 +28,10 @@ function hide(category) {
         }
     }
 
-    // If the story's categories do not match any of the checked categories, remove the class "show"
+    // For each element with class "story", 
+    // If the story's categories do not match any of the checked categories, 
+    // remove the class "show"
+    var storyDivs = document.getElementsByClassName("story");
     for (i = 0; i < storyDivs.length; i++) {
         if (storyDivs[i].classList.contains(category)) {
             var checkedStoryCategories = checkedCategories.filter(filterCategories);
@@ -63,13 +63,11 @@ function hideAll() {
     }
 }
 
-function toggleCheck(source, category) {
+function toggleCategory(source, category) {
     if (source.checked) {
-        // Show all stories of that category
         show(category);
     } else {
-        hide(category); // TODO should not hide it if another category causes it to be shown
-
+        hide(category);
         // Uncheck the "Show all" box
         var checkAllBox = document.getElementById("checkAll")
         checkAllBox.checked = false;
@@ -110,4 +108,14 @@ function expandCollapseAll(source) {
     }
 }
 
-showAll()
+function reverseOrder(source) {
+    // Change the button text and reverse row order
+    var stories = document.getElementById("stories");
+    if (source.innerHTML=="Oldest first") {
+        source.innerHTML = "Newest first";
+        stories.style.flexDirection = "column-reverse"
+    } else {
+        source.innerHTML = "Oldest first";
+        stories.style.flexDirection = "column"
+    }
+}

@@ -69,3 +69,8 @@ summary {
   margin-top: 20px;
   overflow: hidden;
 }
+
+.stories {
+  display: flex;
+  flex-direction: column-reverse;
+}

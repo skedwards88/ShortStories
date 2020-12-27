@@ -3,7 +3,7 @@ const config = require("./config");
 
 function buildStory(story) {
     // Append the story's categories to the class name; these will be used for filtering by category
-    let storyClass = "story"
+    let storyClass = "story show"
     for (i = 0; i < config.dev.categories.length; i++) {
         (story.attributes[config.dev.categories[i]]) ? (storyClass+=` ${config.dev.categories[i]}`) : ''
     }
@@ -20,7 +20,7 @@ function buildStory(story) {
 
 function buildCheckbox(label) {
     return `
-        <input type="checkbox" checked="true" id="${label}" name="${label}" class="category" onclick="toggleCheck(this, '${label}')">
+        <input type="checkbox" checked="true" id="${label}" name="${label}" class="category" onclick="toggleCategory(this, '${label}')">
         <label for="${label}">${label}</label><br>`
 }
 
@@ -48,8 +48,9 @@ const buildHTML = function(stories) {
         ${config.dev.categories.map(category => buildCheckbox(category)).join("")}
     </div>
     <button id="showHideButton" onclick="expandCollapseAll(this)">Expand All</button>
+    <button id="reverseOrder" onclick="reverseOrder(this)">Oldest first</button>
 
-    <div class="stories">${stories.map(story => buildStory(story)).join("")}
+    <div id="stories" class="stories">${stories.map(story => buildStory(story)).join("")}
     </div>
 
     <footer>
