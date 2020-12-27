@@ -1,6 +1,6 @@
 const fs = require("fs");
 const config = require("./config");
-const addHomePage = require("./homepage");
+const writeHTML = require("./build");
 const fm = require("front-matter");
 const marked = require("marked");
 
@@ -21,4 +21,4 @@ const posts = fs
         return b.attributes.date - a.attributes.date;
     });
 
-addHomePage(posts);
+writeHTML(posts);
