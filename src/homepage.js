@@ -41,7 +41,7 @@ const homepage = posts => `
         </div>
 
             <footer>
-                ${`<p>© ${new Date().getFullYear()} ${config.authorName}</p>`}
+                ${`<p>&#169; ${new Date().getFullYear()} ${config.authorName}</p>`}
             </footer>
 
         <script src="script.js"></script>
