@@ -4,7 +4,8 @@ const config = {
     authorName: "Colin Thom",
     dev: {
       postsdir: "./content",
-      outdir: "./public"
+      outdir: "./public",
+      categories: ["Fantasy", "Humor", "SciFi"]
     }
   };
   

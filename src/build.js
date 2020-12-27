@@ -1,8 +1,13 @@
 const fs = require("fs");
 const config = require("./config");
 
-function buildStory(post) {
-    let storyClass = `story${post.attributes.fantasy ? ' fantasy' : ''}${post.attributes.scifi ? ' scifi' : ''}${post.attributes.humor ? ' humor' : ''}`
+function buildStory(storyData) {
+    // Append the story's categories to the class name; these will be used for filtering by category
+    let storyClass = "story"
+    for (i = 0; i < config.dev.categories.length; i++) {
+        (storyData.attributes[config.dev.categories[i]]) ? (storyClass+=` ${config.dev.categories[i]}`) : ''
+    }
+
     return `
         <div class="${storyClass}">
             <button class="collapsible filterDiv">${post.attributes.title}</button>
@@ -11,6 +16,12 @@ function buildStory(post) {
             </div>
         </div>`
 };
+
+function buildCheckbox(label) {
+    return `
+        <input type="checkbox" checked="true" id="${label}" name="${label}" class="category" onclick="toggleCheck(this, '${label}')">
+        <label for="${label}">${label}</label><br>`
+}
 
 // A template literal:
 const buildHTML = function(posts) {
@@ -31,14 +42,11 @@ const buildHTML = function(posts) {
         <h1>${config.siteName}</h1>
     </header>
 
-    <input type="checkbox" checked="true" id="checkAll" name="checkAll" onclick="toggleAll(this)">
-    <label for="checkAll">Show all</label><br>
-    <input type="checkbox" checked="true" id="fantasy" name="fantasy" class="category" onclick="toggleCheck(this, 'fantasy')">
-    <label for="fantasy">Fantasy</label><br>
-    <input type="checkbox" checked="true" id="humor" name="humor" class="category" onclick="toggleCheck(this, 'humor')">
-    <label for="humor">Humor</label><br>
-    <input type="checkbox" checked="true" id="scifi" name="scifi" class="category" onclick="toggleCheck(this, 'scifi')">
-    <label for="scifi">SciFi</label><br>
+    <div id="categories">
+        <input type="checkbox" checked="true" id="checkAll" name="checkAll" onclick="toggleAll(this)">
+        <label for="checkAll">Show all</label><br>\
+        ${config.dev.categories.map(category => buildCheckbox(category)).join("")}
+    </div>
 
     <div class="stories">${posts.map(post => buildStory(post)).join("")}
     </div>

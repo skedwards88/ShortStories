@@ -14,23 +14,25 @@
         <h1>Short Stories</h1>
     </header>
 
-    <input type="checkbox" checked="true" id="checkAll" name="checkAll" onclick="toggleAll(this)">
-    <label for="checkAll">Show all</label><br>
-    <input type="checkbox" checked="true" id="fantasy" name="fantasy" class="category" onclick="toggleCheck(this, 'fantasy')">
-    <label for="fantasy">Fantasy</label><br>
-    <input type="checkbox" checked="true" id="humor" name="humor" class="category" onclick="toggleCheck(this, 'humor')">
-    <label for="humor">Humor</label><br>
-    <input type="checkbox" checked="true" id="scifi" name="scifi" class="category" onclick="toggleCheck(this, 'scifi')">
-    <label for="scifi">SciFi</label><br>
+    <div id="categories">
+        <input type="checkbox" checked="true" id="checkAll" name="checkAll" onclick="toggleAll(this)">
+        <label for="checkAll">Show all</label><br>        
+        <input type="checkbox" checked="true" id="Fantasy" name="Fantasy" class="category" onclick="toggleCheck(this, 'Fantasy')">
+        <label for="Fantasy">Fantasy</label><br>
+        <input type="checkbox" checked="true" id="Humor" name="Humor" class="category" onclick="toggleCheck(this, 'Humor')">
+        <label for="Humor">Humor</label><br>
+        <input type="checkbox" checked="true" id="SciFi" name="SciFi" class="category" onclick="toggleCheck(this, 'SciFi')">
+        <label for="SciFi">SciFi</label><br>
+    </div>
 
     <div class="stories">
-        <div class="story fantasy humor">
+        <div class="story Fantasy Humor">
             <button class="collapsible filterDiv">The Princess and the Dragon</button>
             <div class="content">
                 <p>Once upon a time there was a princess who conquered a dragon to save a prince. Then she left the prince for more adventures.</p>
             </div>
         </div>
-        <div class="story scifi humor">
+        <div class="story Humor SciFi">
             <button class="collapsible filterDiv">The Four Little Pigs</button>
             <div class="content">
                 <p>The fourth pig lived in a van and just drove away from the wolf. Puff puff puff.</p>
