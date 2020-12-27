@@ -1,7 +1,9 @@
 ---
 title: The Four Little Pigs
 date: "2020-02-28T22:19:00Z"
-categories: "scifi humor"
+fantasy: false
+humor: true
+scifi: true
 ---
 
 The fourth pig lived in a van and just drove away from the wolf. Puff puff puff.

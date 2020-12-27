@@ -30,7 +30,7 @@ const homepage = posts => `
             ${posts
               .map(
                 post => `
-                <div class="story ${post.attributes.categories}">
+                <div class="story${ post.attributes.fantasy ? ' fantasy' : '' }${ post.attributes.scifi ? ' scifi' : '' }${ post.attributes.humor ? ' humor' : '' }">
                     <button class="collapsible filterDiv">${post.attributes.title}</button>
                     <div class="content">
                         ${post.body}
