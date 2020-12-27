@@ -19,13 +19,13 @@ const homepage = posts => `
         <h1>${config.siteName}</h1>
     </header>
 
-    <input type="checkbox" checked="true" id="checkAll" name="checkAll" onclick="toggleAll(this);" >
+    <input type="checkbox" checked="true" id="checkAll" name="checkAll" onclick="toggleAll(this);">
     <label for="checkAll">Show all</label><br>
-    <input type="checkbox" checked="true" id="fantasy" name="fantasy" class="category" onclick="toggleCheck(this, 'fantasy')" ; >
+    <input type="checkbox" checked="true" id="fantasy" name="fantasy" class="category" onclick="toggleCheck(this, 'fantasy')";>
     <label for="fantasy">Fantasy</label><br>
-    <input type="checkbox" checked="true" id="humor" name="humor" class="category" onclick="toggleCheck(this, 'humor')" ; >
+    <input type="checkbox" checked="true" id="humor" name="humor" class="category" onclick="toggleCheck(this, 'humor')";>
     <label for="humor">Humor</label><br>
-    <input type="checkbox" checked="true" id="scifi" name="scifi" class="category" onclick="toggleCheck(this, 'scifi')" ; >
+    <input type="checkbox" checked="true" id="scifi" name="scifi" class="category" onclick="toggleCheck(this, 'scifi')";>
     <label for="scifi">SciFi</label><br>
             
     <div class="stories">
