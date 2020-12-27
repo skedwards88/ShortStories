@@ -1,18 +1,18 @@
 const fs = require("fs");
 const config = require("./config");
 
-function buildStory(storyData) {
+function buildStory(story) {
     // Append the story's categories to the class name; these will be used for filtering by category
     let storyClass = "story"
     for (i = 0; i < config.dev.categories.length; i++) {
-        (storyData.attributes[config.dev.categories[i]]) ? (storyClass+=` ${config.dev.categories[i]}`) : ''
+        (story.attributes[config.dev.categories[i]]) ? (storyClass+=` ${config.dev.categories[i]}`) : ''
     }
 
     return `
         <div class="${storyClass}">
-            <button class="collapsible filterDiv">${post.attributes.title}</button>
+            <button class="collapsible">${story.attributes.title}</button>
             <div class="content">
-                ${post.body}\
+                ${story.body}\
             </div>
         </div>`
 };
@@ -23,8 +23,7 @@ function buildCheckbox(label) {
         <label for="${label}">${label}</label><br>`
 }
 
-// A template literal:
-const buildHTML = function(posts) {
+const buildHTML = function(stories) {
     return`\
 <!DOCTYPE html>
 <html lang="en">
@@ -48,7 +47,7 @@ const buildHTML = function(posts) {
         ${config.dev.categories.map(category => buildCheckbox(category)).join("")}
     </div>
 
-    <div class="stories">${posts.map(post => buildStory(post)).join("")}
+    <div class="stories">${stories.map(story => buildStory(story)).join("")}
     </div>
 
     <footer>
@@ -61,12 +60,11 @@ const buildHTML = function(posts) {
 
 </html>`};
 
-const writeHTML = posts => {
-    fs.writeFile(`./index.html`, buildHTML(posts), e => {
+const writeHTML = stories => {
+    fs.writeFile(`./index.html`, buildHTML(stories), e => {
         if (e) throw e;
         console.log(`index.html was created successfully`);
     });
 };
-
 
 module.exports = writeHTML;

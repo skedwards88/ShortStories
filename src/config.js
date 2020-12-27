@@ -3,8 +3,7 @@ const config = {
     siteDescription: "Short stories by Colin Thom",
     authorName: "Colin Thom",
     dev: {
-      postsdir: "./content",
-      outdir: "./public",
+      contentDir: "./content",
       categories: ["Fantasy", "Humor", "SciFi"]
     }
   };

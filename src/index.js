@@ -5,20 +5,20 @@ const fm = require("front-matter");
 const marked = require("marked");
 
 
-const createPost = postPath => {
-    const data = fs.readFileSync(`${config.dev.postsdir}/${postPath}.md`, "utf8");
+const parseStory = storyPath => {
+    const data = fs.readFileSync(`${config.dev.contentDir}/${storyPath}.md`, "utf8");
     const content = fm(data);
     content.body = marked(content.body);
-    content.path = postPath;
+    content.path = storyPath;
     return content;
 };
 
-const posts = fs
-    .readdirSync(config.dev.postsdir)
-    .map(post => post.slice(0, -3)) // drops the .md
-    .map(post => createPost(post))
-    .sort(function (a, b) { // sort by date so latest post is first
+const stories = fs
+    .readdirSync(config.dev.contentDir)
+    .map(story => story.slice(0, -3)) // drops the .md
+    .map(story => parseStory(story))
+    .sort(function (a, b) { // sort by date so latest story is first
         return b.attributes.date - a.attributes.date;
     });
 
-writeHTML(posts);
+writeHTML(stories);
