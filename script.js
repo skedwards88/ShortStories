@@ -1,10 +1,12 @@
-// Add tags
 // add option to expand/collapse all -->
-// add way to filter by tag
 // add way to sort by most recent/oldest
 //  https://stackoverflow.com/questions/2033711/how-can-i-attach-meta-data-to-a-dom-node
-// make reddit fetching script into gh action
-
+// update gh action to get posts into md file format
+// update gh action to include uid in file name to easily compare edited vs new
+// edit raw stories for spelling
+// styling
+// make sure mobile friendly
+// rerout cns site
 
 var coll = document.getElementsByClassName("collapsible");
 var i;
