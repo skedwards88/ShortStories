@@ -21,6 +21,4 @@ const posts = fs
     return b.attributes.date - a.attributes.date;
   });
 
-// if (!fs.existsSync(config.dev.outdir)) fs.mkdirSync(config.dev.outdir);
-
 addHomePage(posts);

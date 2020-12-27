@@ -17,21 +17,25 @@ const homepage = posts => `
                 <h1>${config.siteName}</h1>
             </header>
 
-            <input type="checkbox" checked="true" id="checkall" onclick="toggleall(this);" />Show all<br />
-            <input type="checkbox" checked="true" onclick="togglecheck(this, 'fantasy')" ; />Fantasy<br />
-            <input type="checkbox" checked="true" onclick="togglecheck(this, 'humor')" ; />Humor<br />
-            <input type="checkbox" checked="true" onclick="togglecheck(this, 'scifi')" ; />SciFi<br />
+            <input type="checkbox" checked="true" id="checkAll" name="checkAll" onclick="toggleAll(this);" >
+            <label for="checkAll">Show all</label><br>
+            <input type="checkbox" checked="true" id="fantasy" name="fantasy" class="category" onclick="toggleCheck(this, 'fantasy')" ; >
+            <label for="fantasy">Fantasy</label><br>
+            <input type="checkbox" checked="true" id="humor" name="humor" class="category" onclick="toggleCheck(this, 'humor')" ; >
+            <label for="humor">Humor</label><br>
+            <input type="checkbox" checked="true" id="scifi" name="scifi" class="category" onclick="toggleCheck(this, 'scifi')" ; >
+            <label for="scifi">SciFi</label><br>
                     
-            <div id="stories"></div>
-
             <div class="stories">
             ${posts
               .map(
-                post => `<div class="story">
-                <button data-fantasy="true" class="collapsible filterDiv ${post.attributes.categories}">${post.attributes.title}</button>
-                <div class="content">
-                  <p>${post.body}</p>
-                </div></div>`
+                post => `
+                <div class="story ${post.attributes.categories}">
+                    <button class="collapsible filterDiv">${post.attributes.title}</button>
+                    <div class="content">
+                        ${post.body}
+                    </div>
+                </div>`
               )
               .join("")}
         </div>

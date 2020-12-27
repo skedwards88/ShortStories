@@ -1,3 +1,11 @@
+// Add tags
+// add option to expand/collapse all -->
+// add way to filter by tag
+// add way to sort by most recent/oldest
+//  https://stackoverflow.com/questions/2033711/how-can-i-attach-meta-data-to-a-dom-node
+// make reddit fetching script into gh action
+// when hide expanded, need to hide story too
+// need to handle story with multiple categories
 
 
 var coll = document.getElementsByClassName("collapsible");
@@ -16,81 +24,88 @@ for (i = 0; i < coll.length; i++) {
 }
 
 function show(category) {
-    var x = document.getElementsByClassName("filterDiv");
-
-    for (i = 0; i < x.length; i++) {
-    if (x[i].classList.contains(category)) {
-        x[i].classList.add("show");
-    }
+    // For each element with class "story", 
+    // if the element also has the class [category], 
+    // add the class "show"
+    var storyDivs = document.getElementsByClassName("story");
+    for (i = 0; i < storyDivs.length; i++) {
+        if (storyDivs[i].classList.contains(category)) {
+            storyDivs[i].classList.add("show");
+        }
     }
 }
 
 function hide(category) {
-    var allcats = ["scifi", "fantasy", "humor"];
-    var x = document.getElementsByClassName("filterDiv");
-
-    for (i = 0; i < x.length; i++) {
-    if (x[i].classList.contains(category)) {
-
-        var mycats = allcats.filter(thesecats);
-        function thesecats(value, index, array) {
-        return x[i].classList.contains(value);
-        }
-        console.log(mycats);
-        if (mycats.length === 1) {
-        x[i].classList.remove("show");
+    var storyDivs = document.getElementsByClassName("story");
+    
+    // Figure out which categories are checked
+    var checkboxes = document.getElementsByClassName('category');
+    var checkedCategories = [];
+    for (var i = 0; i < checkboxes.length; i++) { // todo look into map or foreach instead of loop. what is better?
+        if (checkboxes[i].checked) {
+            checkedCategories.push(checkboxes[i].name)
         }
     }
+
+    // If the story's categories do not match any of the checked categories, remove the class "show"
+    for (i = 0; i < storyDivs.length; i++) {
+        if (storyDivs[i].classList.contains(category)) {
+            var checkedStoryCategories = checkedCategories.filter(filterCategories);
+            function filterCategories(value, index, array) {
+                return storyDivs[i].classList.contains(value);
+            }
+            if (checkedStoryCategories.length === 0) {
+                storyDivs[i].classList.remove("show");
+            }
+        }
     }
 }
 
-function showall() {
-    var x = document.getElementsByClassName("filterDiv");
-
-    for (i = 0; i < x.length; i++) {
-    x[i].classList.add("show");
+function showAll() {
+    // For each element with class "story", 
+    // add the class "show"
+    var storyDivs = document.getElementsByClassName("story");
+    for (i = 0; i < storyDivs.length; i++) {
+        storyDivs[i].classList.add("show");
     }
 }
 
-function hideall() {
-    var x = document.getElementsByClassName("filterDiv");
-
-    for (i = 0; i < x.length; i++) {
-    x[i].classList.remove("show");
+function hideAll() {
+    // For each element with class "story", 
+    // remove the class "show"
+    var storyDivs = document.getElementsByClassName("story");
+    for (i = 0; i < storyDivs.length; i++) {
+        storyDivs[i].classList.remove("show");
     }
 }
 
-function togglecheck(source, category) {
+function toggleCheck(source, category) {
     if (source.checked) {
-    console.log('showing ' + category);
-    show(category);
+        // Show all stories of that category
+        show(category);
     } else {
-    console.log('hiding ' + category)
-    hide(category);
-    // uncheck the show all box
-    var checkall = document.getElementById("checkall")
-    console.log(checkall.checked);
-    checkall.checked = false;
-    console.log(checkall.checked);
+        hide(category); // TODO should not hide it if another category causes it to be shown
+
+        // Uncheck the "Show all" box
+        var checkAllBox = document.getElementById("checkAll")
+            checkAllBox.checked = false;
     }
 }
 
-function toggleall(source) {
-    console.log(source.checked);
-
+function toggleAll(source) {
+    // Show or hide all stories when the "Show all" box is checked
     if (source.checked) {
-    console.log('showing all');
-    showall();
+        showAll();
     } else {
-    console.log('showing none');
-    hideall();
+        hideAll();
     }
 
+    // Make the other checkboxes match the state of the "Show all" check box
     var checkboxes = document.querySelectorAll('input[type="checkbox"]');
-    for (var ii = 0; ii < checkboxes.length; ii++) {
-    if (checkboxes[ii] != source)
-        checkboxes[ii].checked = source.checked;
+    for (var i = 0; i < checkboxes.length; i++) { // todo look into map or foreach instead of loop. what is better?
+    if (checkboxes[i] != source)
+        checkboxes[i].checked = source.checked;
     }
 }
 
-showall()
+showAll()

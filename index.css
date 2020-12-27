@@ -41,15 +41,16 @@ h1 {
   
   
   
-  .filterDiv {
+  .story {
     float: left;
     text-align: center;
     margin: 2px;
+    border: 5px;
     display: none;
   }
   
   .show {
-    display: block;
+    display: contents;
   }
   
   .container {
