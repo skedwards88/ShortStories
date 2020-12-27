@@ -4,8 +4,6 @@
 // add way to sort by most recent/oldest
 //  https://stackoverflow.com/questions/2033711/how-can-i-attach-meta-data-to-a-dom-node
 // make reddit fetching script into gh action
-// when hide expanded, need to hide story too
-// need to handle story with multiple categories
 
 
 var coll = document.getElementsByClassName("collapsible");
