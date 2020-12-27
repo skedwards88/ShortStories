@@ -13,13 +13,13 @@ var i;
 
 for (i = 0; i < coll.length; i++) {
     coll[i].addEventListener("click", function () {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight) {
-        content.style.maxHeight = null;
-    } else {
-        content.style.maxHeight = content.scrollHeight + "px";
-    }
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight) {
+            content.style.maxHeight = null;
+        } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+        }
     });
 }
 
@@ -37,7 +37,7 @@ function show(category) {
 
 function hide(category) {
     var storyDivs = document.getElementsByClassName("story");
-    
+
     // Figure out which categories are checked
     var checkboxes = document.getElementsByClassName('category');
     var checkedCategories = [];
@@ -88,7 +88,7 @@ function toggleCheck(source, category) {
 
         // Uncheck the "Show all" box
         var checkAllBox = document.getElementById("checkAll")
-            checkAllBox.checked = false;
+        checkAllBox.checked = false;
     }
 }
 
@@ -103,8 +103,8 @@ function toggleAll(source) {
     // Make the other checkboxes match the state of the "Show all" check box
     var checkboxes = document.querySelectorAll('input[type="checkbox"]');
     for (var i = 0; i < checkboxes.length; i++) { // todo look into map or foreach instead of loop. what is better?
-    if (checkboxes[i] != source)
-        checkboxes[i].checked = source.checked;
+        if (checkboxes[i] != source)
+            checkboxes[i].checked = source.checked;
     }
 }
 

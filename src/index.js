@@ -11,14 +11,14 @@ const createPost = postPath => {
     content.body = marked(content.body);
     content.path = postPath;
     return content;
-  };
+};
 
 const posts = fs
-  .readdirSync(config.dev.postsdir)
-  .map(post => post.slice(0, -3)) // drops the .md
-  .map(post => createPost(post))
-  .sort(function(a, b) { // sort by date so latest post is first
-    return b.attributes.date - a.attributes.date;
-  });
+    .readdirSync(config.dev.postsdir)
+    .map(post => post.slice(0, -3)) // drops the .md
+    .map(post => createPost(post))
+    .sort(function (a, b) { // sort by date so latest post is first
+        return b.attributes.date - a.attributes.date;
+    });
 
 addHomePage(posts);
