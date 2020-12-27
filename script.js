@@ -1,4 +1,3 @@
-// add option to expand/collapse all -->
 // add way to sort by most recent/oldest
 //  https://stackoverflow.com/questions/2033711/how-can-i-attach-meta-data-to-a-dom-node
 // update gh action to get posts into md file format
@@ -7,21 +6,6 @@
 // styling
 // make sure mobile friendly
 // rerout cns site
-
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function () {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.maxHeight) {
-            content.style.maxHeight = null;
-        } else {
-            content.style.maxHeight = content.scrollHeight + "px";
-        }
-    });
-}
 
 function show(category) {
     // For each element with class "story", 
@@ -105,6 +89,24 @@ function toggleAll(source) {
     for (var i = 0; i < checkboxes.length; i++) { // todo look into map or foreach instead of loop. what is better?
         if (checkboxes[i] != source)
             checkboxes[i].checked = source.checked;
+    }
+}
+
+function expandCollapseAll(source) {
+    var expandables = document.getElementsByTagName("details");
+
+    if (source.innerHTML=="Expand All") {
+        // Change the button text and expand all
+        source.innerHTML = "Collapse All";
+        for (i = 0; i < expandables.length; i++) {
+            expandables[i].setAttribute("open", "");
+        }
+    } else {
+        // Change the button text and collapse all
+        source.innerHTML= "Expand All";
+        for (i = 0; i < expandables.length; i++) {
+            expandables[i].removeAttribute("open")
+        }
     }
 }
 

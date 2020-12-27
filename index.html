@@ -24,16 +24,19 @@
         <input type="checkbox" checked="true" id="SciFi" name="SciFi" class="category" onclick="toggleCheck(this, 'SciFi')">
         <label for="SciFi">SciFi</label><br>
     </div>
+    <button id="showHideButton" onclick="expandCollapseAll(this)">Expand All</button>
 
     <div class="stories">
         <div class="story Fantasy Humor">
-            <button class="collapsible">The Princess and the Dragon</button>
+            <details>
+            <summary>The Princess and the Dragon</summary>
             <div class="content">
                 <p>Once upon a time there was a princess who conquered a dragon to save a prince. Then she left the prince for more adventures.</p>
             </div>
         </div>
         <div class="story Humor SciFi">
-            <button class="collapsible">The Four Little Pigs</button>
+            <details>
+            <summary>The Four Little Pigs</summary>
             <div class="content">
                 <p>The fourth pig lived in a van and just drove away from the wolf. Puff puff puff.</p>
             </div>

@@ -10,7 +10,8 @@ function buildStory(story) {
 
     return `
         <div class="${storyClass}">
-            <button class="collapsible">${story.attributes.title}</button>
+            <details>
+            <summary>${story.attributes.title}</summary>
             <div class="content">
                 ${story.body}\
             </div>
@@ -46,6 +47,7 @@ const buildHTML = function(stories) {
         <label for="checkAll">Show all</label><br>\
         ${config.dev.categories.map(category => buildCheckbox(category)).join("")}
     </div>
+    <button id="showHideButton" onclick="expandCollapseAll(this)">Expand All</button>
 
     <div class="stories">${stories.map(story => buildStory(story)).join("")}
     </div>
