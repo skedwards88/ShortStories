@@ -5,6 +5,7 @@
 // styling
 // make sure mobile friendly
 // rerout cns site
+// front matter linter for categories
 
 function show(category) {
     // For each element with class "story", 
@@ -119,3 +120,13 @@ function reverseOrder(source) {
         stories.style.flexDirection = "column"
     }
 }
+
+function toggleMenu() {
+    var menu = document.getElementById("controls");
+    if (menu.style.display === "flex") {
+        menu.style.display = "none";
+    } else {
+        menu.style.display = "flex";
+    }
+  }
+  

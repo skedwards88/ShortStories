@@ -2,6 +2,33 @@ body {
   font-family: sans-serif
 }
 
+header {
+  overflow: hidden;
+  position: relative;
+}
+
+header #controls {
+  display: none;
+  flex-direction: column;
+  width: fit-content;
+}
+
+#menu {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#menu:hover {
+  background-color: #ddd;
+  color: black;
+}
+
 summary {
   background-color: #777;
   color: white;

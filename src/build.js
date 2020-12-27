@@ -20,8 +20,8 @@ function buildStory(story) {
 
 function buildCheckbox(label) {
     return `
-        <input type="checkbox" checked="true" id="${label}" name="${label}" class="category" onclick="toggleCategory(this, '${label}')">
-        <label for="${label}">${label}</label><br>`
+                <input type="checkbox" checked="true" id="${label}" name="${label}" class="category" onclick="toggleCategory(this, '${label}')">
+                <label for="${label}">${label}</label><br>`
 }
 
 const buildHTML = function(stories) {
@@ -40,16 +40,19 @@ const buildHTML = function(stories) {
 <body>
     <header>
         <h1>${config.siteName}</h1>
+        <div id="controls">
+            <div id="categories">
+                <input type="checkbox" checked="true" id="checkAll" name="checkAll" onclick="toggleAll(this)">
+                <label for="checkAll">Show all</label><br>\
+                ${config.dev.categories.map(category => buildCheckbox(category)).join("")}
+            </div>
+            <button id="showHideButton" onclick="expandCollapseAll(this)">Expand All</button>
+            <button id="reverseOrder" onclick="reverseOrder(this)">Oldest first</button>
+        </div>
+        <button id="menu" onclick="toggleMenu()">
+            MENU
+        </button>
     </header>
-
-    <div id="categories">
-        <input type="checkbox" checked="true" id="checkAll" name="checkAll" onclick="toggleAll(this)">
-        <label for="checkAll">Show all</label><br>\
-        ${config.dev.categories.map(category => buildCheckbox(category)).join("")}
-    </div>
-    <button id="showHideButton" onclick="expandCollapseAll(this)">Expand All</button>
-    <button id="reverseOrder" onclick="reverseOrder(this)">Oldest first</button>
-
     <div id="stories" class="stories">${stories.map(story => buildStory(story)).join("")}
     </div>
 

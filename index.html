@@ -12,21 +12,24 @@
 <body>
     <header>
         <h1>Short Stories</h1>
+        <div id="controls">
+            <div id="categories">
+                <input type="checkbox" checked="true" id="checkAll" name="checkAll" onclick="toggleAll(this)">
+                <label for="checkAll">Show all</label><br>                
+                <input type="checkbox" checked="true" id="Fantasy" name="Fantasy" class="category" onclick="toggleCategory(this, 'Fantasy')">
+                <label for="Fantasy">Fantasy</label><br>
+                <input type="checkbox" checked="true" id="Humor" name="Humor" class="category" onclick="toggleCategory(this, 'Humor')">
+                <label for="Humor">Humor</label><br>
+                <input type="checkbox" checked="true" id="SciFi" name="SciFi" class="category" onclick="toggleCategory(this, 'SciFi')">
+                <label for="SciFi">SciFi</label><br>
+            </div>
+            <button id="showHideButton" onclick="expandCollapseAll(this)">Expand All</button>
+            <button id="reverseOrder" onclick="reverseOrder(this)">Oldest first</button>
+        </div>
+        <button id="menu" onclick="toggleMenu()">
+            MENU
+        </button>
     </header>
-
-    <div id="categories">
-        <input type="checkbox" checked="true" id="checkAll" name="checkAll" onclick="toggleAll(this)">
-        <label for="checkAll">Show all</label><br>        
-        <input type="checkbox" checked="true" id="Fantasy" name="Fantasy" class="category" onclick="toggleCategory(this, 'Fantasy')">
-        <label for="Fantasy">Fantasy</label><br>
-        <input type="checkbox" checked="true" id="Humor" name="Humor" class="category" onclick="toggleCategory(this, 'Humor')">
-        <label for="Humor">Humor</label><br>
-        <input type="checkbox" checked="true" id="SciFi" name="SciFi" class="category" onclick="toggleCategory(this, 'SciFi')">
-        <label for="SciFi">SciFi</label><br>
-    </div>
-    <button id="showHideButton" onclick="expandCollapseAll(this)">Expand All</button>
-    <button id="reverseOrder" onclick="reverseOrder(this)">Oldest first</button>
-
     <div id="stories" class="stories">
         <div class="story show Fantasy Humor">
             <details>
