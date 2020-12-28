@@ -3,16 +3,20 @@ const config = require("./config");
 
 function buildStory(story) {
     // Append the story's categories to the class name; these will be used for filtering by category
-    let storyClass = "story show"
+    // Also
+    let tags = []
     for (i = 0; i < config.dev.categories.length; i++) {
-        (story.attributes[config.dev.categories[i]]) ? (storyClass+=` ${config.dev.categories[i]}`) : ''
+        if (story.attributes[config.dev.categories[i]]) {
+            tags.push(config.dev.categories[i])
+        }
     }
 
     return `
-        <div class="${storyClass}">
+        <div class="${'story show ' + tags.join(" ")}">
             <details>
             <summary>${story.attributes.title}</summary>
             <div class="content">
+                <div class="tags">${tags.join(", ")}</div>
                 ${story.body}\
             </div>
         </div>`

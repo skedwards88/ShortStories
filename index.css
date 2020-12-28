@@ -51,7 +51,7 @@ button {
 }
 
 #controls {
-  display: flex;
+  display: none;
   flex-direction: row;
   background-color: var(--light-text);
   padding: 10px;
@@ -66,7 +66,6 @@ button {
   display: flex;
   flex-direction: column;
 }
-
 
 .control-button {
   width: fit-content;
@@ -93,6 +92,12 @@ button {
   display: none;
 }
 
+.tags {
+  text-align: right;
+  font-size: smaller;
+  font-style: italic;
+}
+
 .show {
   display: contents;
 }
@@ -106,6 +111,10 @@ summary {
 
 summary:hover {
   background-color: var(--light-color);
+}
+
+summary:focus {
+  outline: none;
 }
 
 .content {
