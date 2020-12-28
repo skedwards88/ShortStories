@@ -39,6 +39,7 @@ const buildHTML = function(stories) {
     <meta name="description" content="${config.siteDescription}" />
     <title>${config.siteName}</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
 </head>
 
 <body>
@@ -66,6 +67,7 @@ const buildHTML = function(stories) {
     </div>
 
     <footer>
+        <p>Find the source code for this static site generator on <a href="https://github.com/skedwards88/ShortStories">GitHub</a></p>
         ${`<p>&#169; ${new Date().getFullYear()} ${config.authorName}</p>`}
     </footer>
 
