@@ -4,8 +4,10 @@
 // edit raw stories for spelling
 // styling
 // make sure mobile friendly
-// rerout cns site
+// reroute cns site
 // front matter linter for categories
+// /* todo make a separate hover icon so control image color also */
+// todo look into map or foreach instead of loop. what is better?
 
 function show(category) {
     // For each element with class "story", 
@@ -23,7 +25,7 @@ function hide(category) {
     // Figure out which categories are checked
     var checkboxes = document.getElementsByClassName('category');
     var checkedCategories = [];
-    for (var i = 0; i < checkboxes.length; i++) { // todo look into map or foreach instead of loop. what is better?
+    for (var i = 0; i < checkboxes.length; i++) {
         if (checkboxes[i].checked) {
             checkedCategories.push(checkboxes[i].name)
         }
@@ -85,7 +87,7 @@ function toggleAll(source) {
 
     // Make the other checkboxes match the state of the "Show all" check box
     var checkboxes = document.querySelectorAll('input[type="checkbox"]');
-    for (var i = 0; i < checkboxes.length; i++) { // todo look into map or foreach instead of loop. what is better?
+    for (var i = 0; i < checkboxes.length; i++) {
         if (checkboxes[i] != source)
             checkboxes[i].checked = source.checked;
     }
