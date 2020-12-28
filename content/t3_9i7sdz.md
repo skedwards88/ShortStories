@@ -2,12 +2,14 @@
 title: Memories Through Death
 author: Colin Thom
 date: 1537715811.0
+edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/9i7sdz/wp_you_accidentally_kill_a_person_instantly_you/
 Fantasy: false
-Humor: false
 SciFi: false
+Humor: false
+Horror: false
+Poetry: false
 Micro: false
-Poem: false
 ---
 The first time was an accident. I'm ashamed to admit I fled the scene after I hit him. Hosed the car down in the driveway, tried to pretend it never happened.
 

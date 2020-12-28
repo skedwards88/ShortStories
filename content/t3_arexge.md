@@ -2,12 +2,14 @@
 title: Cult Revival
 author: Colin Thom
 date: 1550381948.0
+edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/arexge/wptheyre_not_the_best_dark_cultists_they_mumble/
 Fantasy: false
-Humor: false
 SciFi: false
+Humor: false
+Horror: false
+Poetry: false
 Micro: false
-Poem: false
 ---
 They used to fear me.
 

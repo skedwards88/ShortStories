@@ -2,12 +2,14 @@
 title: The Chosen One
 author: Colin Thom
 date: 1552571007.0
+edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/b0yubn/wp_you_are_the_chosen_one_you_go_to_kill_the_evil/
 Fantasy: false
-Humor: true
 SciFi: false
+Humor: true
+Horror: false
+Poetry: false
 Micro: false
-Poem: false
 ---
 They destroyed our world.
 

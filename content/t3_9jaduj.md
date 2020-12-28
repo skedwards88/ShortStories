@@ -2,12 +2,14 @@
 title: First Food in a Millennia
 author: Colin Thom
 date: 1538037296.0
+edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/9jaduj/wp1000_years_ago_scientists_have_found_a_way_to/
 Fantasy: false
-Humor: true
 SciFi: true
+Humor: true
+Horror: false
+Poetry: false
 Micro: false
-Poem: false
 ---
 *1000 years ago, scientists found a way to give humans chlorophyll, enabling humans to survive solely on sunlight. Humans evolved and lost the need and instinct to eat.*
 

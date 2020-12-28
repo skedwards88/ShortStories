@@ -2,11 +2,13 @@
 title: The Four Little Pigs
 author: Sarah Edwards
 date: 1609168199.5
+edited: true
 permalink: null
 Fantasy: true
-Humor: false
 SciFi: false
+Humor: false
+Horror: false
+Poetry: false
 Micro: true
-Poem: false
 ---
 The fourth pig lived in a van and just drove away from the wolf. Puff puff puff.

@@ -2,12 +2,14 @@
 title: You're Going to Heaven, Young Lady
 author: Sarah Edwards
 date: 1600745878.0
+edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/ix6cz3/wp_being_the_devils_offspring_means_that_youre/
 Fantasy: false
-Humor: true
 SciFi: false
+Humor: true
+Horror: false
+Poetry: false
 Micro: false
-Poem: false
 ---
 “I really don’t know where I went wrong.”
 

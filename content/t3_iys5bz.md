@@ -2,12 +2,14 @@
 title: Living on Through Memory
 author: Colin Thom
 date: 1600956855.0
+edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/iys5bz/wp_in_the_afterlife_souls_can_see_how_many_living/
 Fantasy: false
-Humor: true
 SciFi: false
+Humor: true
+Horror: false
+Poetry: false
 Micro: false
-Poem: false
 ---
 “Those who lived a quiet life live a quiet death.” So they say here in the afterlife.
 

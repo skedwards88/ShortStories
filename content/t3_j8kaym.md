@@ -2,12 +2,14 @@
 title: Thanks for the Invite
 author: Colin Thom
 date: 1602342385.0
+edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/j8kaym/wp_you_died_and_was_sent_to_hell_but_upon/
 Fantasy: false
-Humor: true
 SciFi: false
+Humor: true
+Horror: false
+Poetry: false
 Micro: false
-Poem: false
 ---
 Saint Peter frowned as he looked at my paperwork, mumbling under his breath.
 
