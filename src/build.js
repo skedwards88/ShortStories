@@ -39,7 +39,7 @@ const buildHTML = function(stories) {
     <meta name="description" content="${config.siteDescription}" />
     <title>${config.siteName}</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 </head>
 
 <body>

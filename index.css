@@ -42,7 +42,7 @@ button:focus {
 }
 
 #menu-button {
-  background-image: url('./menu_dark.png');
+  background-image: url('./images/menu_dark.png');
   width: 32px;
   height: 32px;
   background-position: center;
@@ -52,7 +52,7 @@ button:focus {
 }
 
 #menu-button:hover {
-  background-image: url('./menu_light.png');
+  background-image: url('./images/menu_light.png');
   background-color: var(--dark-color);
 }
 
