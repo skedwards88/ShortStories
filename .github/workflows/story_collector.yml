@@ -3,7 +3,7 @@ name: Story collector
 on: [workflow_dispatch]
 
 jobs:
-  build:
+  collect_stories:
     runs-on: ubuntu-latest
     steps:
     - name: check out repo content

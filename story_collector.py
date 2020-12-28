@@ -33,12 +33,14 @@ while num_comments == limit:
                 f'title: {comment["data"]["link_title"]}',
                 'author: Colin Thom',
                 f'date: {comment["data"]["created_utc"]}',
+                'edited: false',
                 f'permalink: {comment["data"]["link_permalink"]}',
                 'Fantasy: false',
-                'Humor: false',
                 'SciFi: false',
+                'Humor: false',
+                'Horror: false',
+                'Poetry: false',
                 'Micro: false',
-                'Poem: false',
                 '---',
                 f'{comment["data"]["body"]}'
             ])
