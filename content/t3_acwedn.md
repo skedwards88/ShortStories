@@ -5,7 +5,7 @@ date: 1546712106.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/acwedn/wp_in_the_distant_future_the_first_intelligent_ai/
 Fantasy: false
-SciFi: false
+SciFi: true
 Humor: true
 Magical Realism: false
 Horror: false

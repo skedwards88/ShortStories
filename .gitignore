@@ -1,4 +1,4 @@
-venv/*
+venv
 .vscode
 node_modules
-raw_stories/*
+raw_stories

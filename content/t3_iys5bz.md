@@ -7,7 +7,7 @@ permalink: https://www.reddit.com/r/WritingPrompts/comments/iys5bz/wp_in_the_aft
 Fantasy: false
 SciFi: false
 Humor: true
-Magical Realism: false
+Magical Realism: true
 Horror: false
 Poetry: false
 Micro: false

@@ -7,7 +7,7 @@ permalink: https://www.reddit.com/r/WritingPrompts/comments/ix3rvh/wp_no_no_you_
 Fantasy: false
 SciFi: true
 Humor: false
-Magical Realism: false
+Magical Realism: true
 Horror: false
 Poetry: false
 Micro: false

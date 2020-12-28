@@ -12,4 +12,4 @@ Poetry: false
 Humor: false
 Micro: true
 ---
-Once upon a time there was a princess who conquered a dragon to save a prince. Then she left the prince for more adventures and lived happily ever after.
+Once upon a time there was a princess who conquered a dragon to save a prince. Then she left the prince for more adventures. She lived happily ever after.

@@ -7,7 +7,7 @@ permalink: https://www.reddit.com/r/WritingPrompts/comments/bwvmzs/wp_shortly_af
 Fantasy: false
 SciFi: true
 Humor: false
-Magical Realism: true
+Magical Realism: false
 Horror: true
 Poetry: false
 Micro: false

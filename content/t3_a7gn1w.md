@@ -7,7 +7,7 @@ permalink: https://www.reddit.com/r/WritingPrompts/comments/a7gn1w/wp_every_time
 Humor: false
 Fantasy: false
 Horror: false
-Magical Realism: false
+Magical Realism: true
 Poetry: false
 SciFi: true
 ---

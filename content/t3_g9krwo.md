@@ -4,10 +4,10 @@ author: Colin Thom
 date: 1588087024.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/g9krwo/wp_you_just_gave_birth_your_son_has_a_colored/
-Fantasy: false
-SciFi: true
+Fantasy: true
+SciFi: false
 Humor: true
-Magical Realism: false
+Magical Realism: true
 Horror: false
 Poetry: false
 Micro: false
