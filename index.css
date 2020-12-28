@@ -2,29 +2,43 @@ body {
   font-family: sans-serif
 }
 
-header {
+/* header {
   overflow: hidden;
   position: relative;
+} */
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  align-items: center;
 }
 
-header #controls {
+#controls {
   display: none;
   flex-direction: column;
+  background-color: rgb(154, 188, 221);
+  padding: 10px;
+}
+
+.control-button {
   width: fit-content;
+  margin: 3px;
+  padding: 3px;
 }
 
-#menu {
+#menu-button {
   color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
+  background-image: url('./menu.png');
+  width: 30px;
+  height: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 10px 0 5px;
 }
 
-#menu:hover {
+#menu-button:hover {
   background-color: #ddd;
   color: black;
 }

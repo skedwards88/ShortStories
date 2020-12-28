@@ -11,7 +11,10 @@
 
 <body>
     <header>
-        <h1>Short Stories</h1>
+        <div class="menu">
+            <button id="menu-button" onclick="toggleMenu()"></button>
+            <h1>Short Stories</h1>
+        </div>
         <div id="controls">
             <div id="categories">
                 <input type="checkbox" checked="true" id="checkAll" name="checkAll" onclick="toggleAll(this)">
@@ -23,12 +26,9 @@
                 <input type="checkbox" checked="true" id="SciFi" name="SciFi" class="category" onclick="toggleCategory(this, 'SciFi')">
                 <label for="SciFi">SciFi</label><br>
             </div>
-            <button id="showHideButton" onclick="expandCollapseAll(this)">Expand All</button>
-            <button id="reverseOrder" onclick="reverseOrder(this)">Oldest first</button>
+            <button id="showHideButton" class="control-button" onclick="expandCollapseAll(this)">Expand All</button>
+            <button id="reverseOrder" class="control-button" onclick="reverseOrder(this)">Oldest first</button>
         </div>
-        <button id="menu" onclick="toggleMenu()">
-            MENU
-        </button>
     </header>
     <div id="stories" class="stories">
         <div class="story show Fantasy Humor">

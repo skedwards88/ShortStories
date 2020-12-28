@@ -39,19 +39,19 @@ const buildHTML = function(stories) {
 
 <body>
     <header>
-        <h1>${config.siteName}</h1>
+        <div class="menu">
+            <button id="menu-button" onclick="toggleMenu()"></button>
+            <h1>${config.siteName}</h1>
+        </div>
         <div id="controls">
             <div id="categories">
                 <input type="checkbox" checked="true" id="checkAll" name="checkAll" onclick="toggleAll(this)">
                 <label for="checkAll">Show all</label><br>\
                 ${config.dev.categories.map(category => buildCheckbox(category)).join("")}
             </div>
-            <button id="showHideButton" onclick="expandCollapseAll(this)">Expand All</button>
-            <button id="reverseOrder" onclick="reverseOrder(this)">Oldest first</button>
+            <button id="showHideButton" class="control-button" onclick="expandCollapseAll(this)">Expand All</button>
+            <button id="reverseOrder" class="control-button" onclick="reverseOrder(this)">Oldest first</button>
         </div>
-        <button id="menu" onclick="toggleMenu()">
-            MENU
-        </button>
     </header>
     <div id="stories" class="stories">${stories.map(story => buildStory(story)).join("")}
     </div>
