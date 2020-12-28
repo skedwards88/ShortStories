@@ -13,7 +13,7 @@ Micro: false
 ---
 “I really don’t know where I went wrong.”
 
-I huddled on the top step, listening to my dad unload to his friend Bezelbub at the entrance to the 6th level of Hell.
+I huddled on the top step, listening to my dad unload to his friend Beelzebub at the entrance to the 6th level of Hell.
 
 “It’s not your fault, Satan. All kids hit a rebellious stage in their teenage years.”
 

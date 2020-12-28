@@ -1,5 +1,5 @@
 ---
-title: Trump Imprint
+title: Twitter Imprint
 author: Colin Thom
 date: 1546712106.0
 edited: true
