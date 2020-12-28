@@ -16,7 +16,6 @@ user = os.environ['REDDIT_COLIN_USERNAME']
 subreddit = 'WritingPrompts'
 output_directory = 'raw_stories'
 headers = {"Authorization": f"bearer {access_token}", "User-Agent": "ChangeMeClient/0.1 by YourUsername"}
-count = 0
 after = 'None'
 limit = 100 # This is the max
 num_comments = limit
@@ -26,15 +25,25 @@ while num_comments == limit:
     after = out['data']['after']
     comments = out['data']['children']
     for comment in comments:
+        # If the parent_id and link_id match, this is a top level comment
         if comment['data']['subreddit'] == subreddit and comment['data']['parent_id'] == comment['data']['link_id']:
-            count += 1
-            filename = f'raw_stories/{count}.txt'
+            filename = f'raw_stories/{comment["data"]["link_id"]}.txt'
+            contents = '\n'.join([
+                '---',
+                f'cat',
+                f'title: {comment["data"]["link_title"]}',
+                f'date: {comment["data"]["created_utc"]}',
+                f'permalink: {comment["data"]["link_permalink"]}',
+                'Fantasy: false',
+                'Humor: false',
+                'SciFi: false'
+                'Micro: false',
+                'Poem: false'
+                '---',
+                f'{comment["data"]["body"]}'
+            ])
             with open(filename, 'w') as file:
-                file.write(comment['data']['link_title'])
-                file.write('\n')
-                file.write(f"{comment['data']['created_utc']}")
-                file.write('\n-----\n')
-                file.write(comment['data']['body'])
+                file.write(contents)
     # Record the number of comments returned from this request. 
     # Once that number drops below the max number that will be returned, the loop will stop.
     num_comments = len(comments)
