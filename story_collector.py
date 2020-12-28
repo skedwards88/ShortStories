@@ -27,11 +27,11 @@ while num_comments == limit:
     for comment in comments:
         # If the parent_id and link_id match, this is a top level comment
         if comment['data']['subreddit'] == subreddit and comment['data']['parent_id'] == comment['data']['link_id']:
-            filename = f'raw_stories/{comment["data"]["link_id"]}.txt'
+            filename = f'raw_stories/{comment["data"]["link_id"]}.md'
             contents = '\n'.join([
                 '---',
-                f'cat',
                 f'title: {comment["data"]["link_title"]}',
+                'author: Colin Thom',
                 f'date: {comment["data"]["created_utc"]}',
                 f'permalink: {comment["data"]["link_permalink"]}',
                 'Fantasy: false',
