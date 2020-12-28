@@ -36,9 +36,9 @@ while num_comments == limit:
                 f'permalink: {comment["data"]["link_permalink"]}',
                 'Fantasy: false',
                 'Humor: false',
-                'SciFi: false'
+                'SciFi: false',
                 'Micro: false',
-                'Poem: false'
+                'Poem: false',
                 '---',
                 f'{comment["data"]["body"]}'
             ])
