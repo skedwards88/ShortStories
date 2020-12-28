@@ -8,6 +8,8 @@
 // front matter linter for categories
 // /* todo make a separate hover icon so control image color also */
 // todo look into map or foreach instead of loop. what is better?
+// flavicon
+// way to control font size on mobile?
 
 function show(category) {
     // For each element with class "story", 
@@ -71,21 +73,21 @@ function toggleCategory(source, category) {
         show(category);
     } else {
         hide(category);
-        // Uncheck the "Show all" box
+        // Uncheck the "Show All" box
         var checkAllBox = document.getElementById("checkAll")
         checkAllBox.checked = false;
     }
 }
 
 function toggleAll(source) {
-    // Show or hide all stories when the "Show all" box is checked
+    // Show or hide all stories when the "Show All" box is checked
     if (source.checked) {
         showAll();
     } else {
         hideAll();
     }
 
-    // Make the other checkboxes match the state of the "Show all" check box
+    // Make the other checkboxes match the state of the "Show All" check box
     var checkboxes = document.querySelectorAll('input[type="checkbox"]');
     for (var i = 0; i < checkboxes.length; i++) {
         if (checkboxes[i] != source)
@@ -114,11 +116,11 @@ function expandCollapseAll(source) {
 function reverseOrder(source) {
     // Change the button text and reverse row order
     var stories = document.getElementById("stories");
-    if (source.innerHTML=="Oldest first") {
+    if (source.innerHTML=="Oldest First") {
         source.innerHTML = "Newest first";
         stories.style.flexDirection = "column-reverse"
     } else {
-        source.innerHTML = "Oldest first";
+        source.innerHTML = "Oldest First";
         stories.style.flexDirection = "column"
     }
 }
