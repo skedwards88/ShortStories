@@ -7,6 +7,7 @@ permalink: https://www.reddit.com/r/WritingPrompts/comments/j8kaym/wp_you_died_a
 Fantasy: false
 SciFi: false
 Humor: true
+Magical Realism: false
 Horror: false
 Poetry: false
 Micro: false

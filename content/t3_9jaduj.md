@@ -7,6 +7,7 @@ permalink: https://www.reddit.com/r/WritingPrompts/comments/9jaduj/wp1000_years_
 Fantasy: false
 SciFi: true
 Humor: true
+Magical Realism: false
 Horror: false
 Poetry: false
 Micro: false

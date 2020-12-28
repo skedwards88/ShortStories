@@ -7,6 +7,7 @@ permalink: null
 Fantasy: true
 SciFi: false
 Humor: false
+Magical Realism: false
 Horror: false
 Poetry: false
 Micro: true

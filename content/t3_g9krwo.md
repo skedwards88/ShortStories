@@ -7,6 +7,7 @@ permalink: https://www.reddit.com/r/WritingPrompts/comments/g9krwo/wp_you_just_g
 Fantasy: false
 SciFi: true
 Humor: true
+Magical Realism: false
 Horror: false
 Poetry: false
 Micro: false

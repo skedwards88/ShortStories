@@ -7,6 +7,7 @@ permalink: https://www.reddit.com/r/WritingPrompts/comments/c56jjo/wp_you_are_ea
 Fantasy: false
 SciFi: false
 Humor: false
+Magical Realism: false
 Horror: true
 Poetry: false
 Micro: false

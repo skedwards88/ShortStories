@@ -6,6 +6,7 @@ edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/9hteyx/wplove_is_in_the_air_wear_a_gas_mask/
 Fantasy: false
 SciFi: false
+Magical Realism: false
 Humor: false
 Horror: false
 Poetry: false

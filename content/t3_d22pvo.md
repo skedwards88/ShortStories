@@ -2,11 +2,12 @@
 title: Bells
 author: Colin Thom
 date: 1568103809.0
-edited: false
+edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/d22pvo/wp_youre_a_gravekeeper_the_dead_are_buried_with/
 Fantasy: false
 SciFi: false
 Humor: false
+Magical Realism: false
 Horror: true
 Poetry: false
 Micro: false

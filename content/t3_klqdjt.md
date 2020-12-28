@@ -7,6 +7,7 @@ permalink: https://www.reddit.com/r/WritingPrompts/comments/klqdjt/wp_aging_has_
 Fantasy: false
 SciFi: true
 Humor: false
+Magical Realism: false
 Horror: false
 Poetry: false
 Micro: false

@@ -7,6 +7,7 @@ permalink: https://www.reddit.com/r/WritingPrompts/comments/ix6cz3/wp_being_the_
 Fantasy: false
 SciFi: false
 Humor: true
+Magical Realism: false
 Horror: false
 Poetry: false
 Micro: false

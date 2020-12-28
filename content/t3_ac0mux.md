@@ -7,6 +7,7 @@ permalink: https://www.reddit.com/r/WritingPrompts/comments/ac0mux/wp_youve_acci
 Fantasy: true
 SciFi: false
 Humor: true
+Magical Realism: false
 Horror: false
 Poetry: false
 Micro: false

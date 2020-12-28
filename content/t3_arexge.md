@@ -7,6 +7,7 @@ permalink: https://www.reddit.com/r/WritingPrompts/comments/arexge/wptheyre_not_
 Fantasy: true
 SciFi: false
 Humor: true
+Magical Realism: false
 Horror: false
 Poetry: false
 Micro: false

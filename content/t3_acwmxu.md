@@ -7,6 +7,7 @@ permalink: https://www.reddit.com/r/WritingPrompts/comments/acwmxu/wp_after_15_y
 Fantasy: false
 SciFi: false
 Humor: false
+Magical Realism: false
 Horror: true
 Poetry: false
 Micro: false

@@ -7,6 +7,7 @@ permalink: https://www.reddit.com/r/WritingPrompts/comments/acwedn/wp_in_the_dis
 Fantasy: false
 SciFi: false
 Humor: true
+Magical Realism: false
 Horror: false
 Poetry: false
 Micro: false
