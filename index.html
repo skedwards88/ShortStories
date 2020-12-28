@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Short stories by Colin Thom" />
+    <meta name="description" content="Short stories by Colin Thom and Sarah Edwards" />
     <title>Short Stories</title>
     <link rel="stylesheet" href="index.css">
 </head>
@@ -13,7 +13,10 @@
     <header>
         <div class="menu">
             <button id="menu-button" onclick="toggleMenu()"></button>
-            <h1>Short Stories</h1>
+            <div id="title">
+                <h1>Short Stories</h1>
+                <h2>by Colin Thom and Sarah Edwards</h2>
+            </div>
         </div>
         <div id="controls">
             <div id="categories">
@@ -26,29 +29,265 @@
                 <input type="checkbox" checked="true" id="SciFi" name="SciFi" class="category" onclick="toggleCategory(this, 'SciFi')">
                 <label for="SciFi">SciFi</label><br>
             </div>
-            <button id="showHideButton" class="control-button" onclick="expandCollapseAll(this)">Expand All</button>
-            <button id="reverseOrder" class="control-button" onclick="reverseOrder(this)">Oldest first</button>
+            <div id="control-buttons">
+                <button id="showHideButton" class="control-button" onclick="expandCollapseAll(this)">Expand All</button>
+                <button id="reverseOrder" class="control-button" onclick="reverseOrder(this)">Oldest First</button>
+            </div>
         </div>
     </header>
     <div id="stories" class="stories">
-        <div class="story show Fantasy Humor">
+        <div class="story show SciFi">
             <details>
-            <summary>The Princess and the Dragon</summary>
+            <summary>Fallen</summary>
             <div class="content">
-                <p>Once upon a time there was a princess who conquered a dragon to save a prince. Then she left the prince for more adventures.</p>
+                <p>The Lost Generation. That’s what we thought of our parents, though in their time they were known as GenX. By the time life extension was developed (and FDA approved) in the late 21st century, they were too far gone to benefit. Aging could be halted, not reversed.</p>
+<p>They lived on in our memory, we told ourselves. We thought their memory would live on forever in us. But then we, too, started to age.</p>
+<p>It began slowly. A wrinkle here, an achy joint there. Then hard evidence came in the measured shortening of telomeres and the reduced proliferation score of stem cells isolated from tissue samples.</p>
+<p>We were aging. Not only that, but the process was accelerating. Within a few years, our hair began to gray.</p>
+<p>A black market developed for unproven treatments. Conspiracy theories abounded, each more ridiculous than the last. The government engineered a virus to undo agelessness, Clorox was a cure but the FDA wouldn’t approve it, you get the idea.</p>
+<p>And the babies! We were previously known as the childless generation, but as our own mortality threatened, we turned to the empty solace of immortality by association with future generations.</p>
+<p>But within 5 years, most women had gone through menopause and most men were less virile. Another 5 years and we hobbled around aimlessly, our minds as fogged as our eyes were rheumy.</p>
+<p>Our children were our hope. They could find the cause, and then a solution, we told ourselves. That was until the final shock. Before even the teenage years, their hair started to gray and thin, their skins blemished and wrinkled. Most never made it through puberty, and those that did have children... well, best not to describe what was born.</p>
+<p>Our parents had given us immortality, or so we thought. But like most generations, we simply stole from the next. In our case we stole time.</p>
+<p>We became known as the Fallen Generation. Our children were know as the Last Generation.</p>
             </div>
         </div>
-        <div class="story show Humor SciFi">
+        <div class="story show Fantasy">
             <details>
             <summary>The Four Little Pigs</summary>
             <div class="content">
                 <p>The fourth pig lived in a van and just drove away from the wolf. Puff puff puff.</p>
             </div>
         </div>
+        <div class="story show Fantasy">
+            <details>
+            <summary>The Princess and the Dragon</summary>
+            <div class="content">
+                <p>Once upon a time there was a princess who conquered a dragon to save a prince. Then she left the prince for more adventures and lived happily ever after.</p>
+            </div>
+        </div>
+        <div class="story show Humor">
+            <details>
+            <summary>Thanks for the Invite</summary>
+            <div class="content">
+                <p>Saint Peter frowned as he looked at my paperwork, mumbling under his breath.</p>
+<p>When I had seen the word &quot;Atheist&quot; stamped across my folder in big red letters, I thought I would be promptly sent to hell. But instead, Saint Peter seemed to be combing through my records, trying to find any loophole that would get me into heaven.</p>
+<p>&quot;I don&#39;t suppose you had a last second profession of belief and repentance of sins before death?&quot; Peter asked hopefully.</p>
+<p>&quot;No, it even says &#39;unrepentant&#39; there.&quot; I informed him, pointing to a page.</p>
+<p>&quot;Yes, yes.&quot; Peter said, his voice edging on desperation. &quot;But, you know, if you were to say you had, whose to say differently? I would sign of on it and we could get you in.&quot; He gestured at the pearly gates, which now that I looked at them, showed sins of disrepair. Flecks of paint were pealing off the bars.</p>
+<p>&quot;But that would be a lie.&quot;</p>
+<p>Peter squeaked and dropped his pen. &quot;No one is saying anything about lying!&quot; He protested. &quot;Just, um, a correction of the records based on your more recent recollections.&quot;</p>
+<p>&quot;You seem pretty desperate to get me in.&quot;</p>
+<p>&quot;Yes, well, you see... Our numbers are going down.&quot; Peter admitted dejectedly.</p>
+<p>&quot;Shouldn&#39;t the number of people in heaven go up as more people die?&quot; There was a long pause.</p>
+<p>&quot;Not if those already here petition to be sent to hell.&quot;</p>
+<p>I looked at Peter incredulously, and he continued. &quot;Ever since the Air Conditioner was invented in 1902, Hell has become quite the popular destination. Terrible for the environment of course, global warming and all.&quot;</p>
+<p>&quot;But why would anyone want to leave heaven?&quot;</p>
+<p>&quot;Some up here have gotten tired of eternal adoration of God. We keep a pretty strict rotation, choirs singing His praises at all times and preachers praising His greatness at every corner. But as His popularity up here dropped, God took to Twitter to get more attention. Right now we&#39;re keeping His numbers of followers up with bot farms from Russia that like everything he posts.&quot;</p>
+<p>I shook my head in disbelief. &quot;How do people get out once they&#39;re in heaven?&quot;</p>
+<p>&quot;Well, as an atheist, you&#39;ve probably read the Bible.&quot; I nodded and he went on. &quot;Many Christians are surprised to learn how petty the Old Testament is. And Jesus did say he did not come to destroy any of the old laws. One only has to point to the Old Testament, and admit they didn&#39;t eat kosher, or that they wore garments of mixed material. All those clothes you folks make down on Earth, with 10% this and 20% that, it&#39;s hard not to violate that one.&quot;</p>
+<p>&quot;Final question,&quot; I said. &quot;If those in heaven spend their time flattering your narcissistic boss, what do those in Hell do?&quot;</p>
+<p>&quot;Whatever they want, really. Hell is just the separation from God. Everyone down there still has each other.&quot;</p>
+<p>&quot;Thanks for the invite,&quot; I gestured at the pearly gates. One side was slightly askew, and I noticed some cobwebs on the other. &quot;But I think I&#39;ll pass. How do I get down to Hell?&quot;</p>
+<p>Peter sighed resignedly, then gestured behind me. &quot;Go back down the corridor of light and take the first elevator on your left. Their reception desk is on level H1.&quot;</p>
+            </div>
+        </div>
+        <div class="story show Humor">
+            <details>
+            <summary>Living on Through Memory</summary>
+            <div class="content">
+                <p>“Those who lived a quiet life live a quiet death.” So they say here in the afterlife.</p>
+<p>The first week after my death, my head was filled with a cacophony of voices. Friends, family and colleagues all talking or thinking of how they missed me. Sharing stories, tears, and laughter. I could even see through people’s eyes as they spoke or thought of me.</p>
+<p>The laughter was the best. I always loved to make people laugh, and used to put myself at the butt of the joke just to see others smile. Hearing the laughter as people remembered the good times eased my passing as I adjusted to my new life... I mean my new afterlife.</p>
+<p>After the first week, the voices dropped off rapidly. Sure, there was a little surge once a year when a few people remembered the anniversary of my death, but by and large, people moved on.</p>
+<p>I drifted through the void, waiting between times that people would speak or think of me. The waits got longer and longer, until even my intangible form started to fade.</p>
+<p>It wasn’t uncommon. Only a small number of us, celebrities, billionaires and world leaders mostly, could survive the afterlife for long. As the decades passed, a few even became more popular, their spirit forms more vibrant. David Attenborough was one of these. His narration of <em>Planet Earth</em> became the only way people could remember the earth that had one existed, the diversity of life that existed before global warming went on its rampage.</p>
+<p>But most of us, we faded. About 200 years after my passing, I was fully forgotten. Even I forgot myself as I disappeared into the void...</p>
+<p>BAM! A cracking of energy echoed through the void as I was forced violently back into existence, my form so vibrant as to almost seem corporeal.</p>
+<p>Everything rushed back, and I barely had time to wonder before I was pulled into the experience of the living who were remembering me.</p>
+<p>It was a YouTube video. One that had only a dozen views at the time, but that must have gone viral somehow 500 years after my passing. In it, I was at a table with friends. It was someone’s birthday; there was milk and cake.</p>
+<p>I watch as a younger me stuck straws up his nose, sipped a glass of milk, then attempted to eat a piece of cake. I watch through others eyes as I choked, spewing milk out my nose through the straws.</p>
+<p>Again and again I watch, as the YouTube video hits 1 Million views. When I try to escape to the void, I get yanked back as others watch the video.</p>
+<p>By the time the video hits 1 Billion views, I am insane. It doesn’t stop. My lifeless spirit drifts through the void, more vibrant than all the rest. Other spirits give me a wide berth, so as not to be hit by the milk spewing through straws from my nose.</p>
+            </div>
+        </div>
+        <div class="story show Humor">
+            <details>
+            <summary>You're Going to Heaven, Young Lady</summary>
+            <div class="content">
+                <p>“I really don’t know where I went wrong.”</p>
+<p>I huddled on the top step, listening to my dad unload to his friend Bezelbub at the entrance to the 6th level of Hell.</p>
+<p>“It’s not your fault, Satan. All kids hit a rebellious stage in their teenage years.”</p>
+<p>“She was such a good little girl. I hardly know what to do.”</p>
+<p>“Send her to Heaven for summer break. That will make her wish she never strayed from the path.”</p>
+<p>“Yeah, maybe. God still owes me for letting Jesus in here for a stint.”</p>
+<p>I tiptoed away, my mind racing. Heaven. What would that be like? I had heard horror stories, of course. No ice cream, no rock music, no halter tops. But no one I knew had really been there. Were the stories actually true?</p>
+<p>I checked my iPhone--another thing not found in Heaven, thanks to Apple’s support of Chinese censorship. Probably enough time to sneak out and be back before Dad got home from work. Just in case, I sent him a text, “Studying at Jan’s,” and sent one to my friend, Jan, letting her know my cover. Then I popped over to the moral realm.</p>
+<p>Walking down the street, I saw a guy ahead of me take a final drag from his cigarette and reach to toss the smoldering butt in the dry patch of grass next to the sidewalk. I hiked up my skirt and unfastened the top few buttons of my blouse as I lengthened my stride to catch up. I grabbed his wrist as he made to release the cigarette.</p>
+<p>“What the--” he broke off as he caught sight of my now-exposed cleavage and thighs.</p>
+<p>I batted my eyelashes and purred, “Sorry. I just hate seeing those butts on the ground. I sunbathe on the grass sometimes, and the cigarette butts really ruin the ambiance.” I paused to let the image of me sunbathing on the grass sink in.</p>
+<p>“You know,” I gave him a shy smile as we continued walking. “I wonder why a handsome man like you goes and ruins his breath with cigarettes. You look like you’d be a good kisser otherwise.”</p>
+<p>I stopped walking as we reached a public ashtray and dropped the cigarette but in. Ogling at me, the guy pulled out his pack of cigarettes and tossed them in the neighboring trash can.</p>
+<p>“Well, this is my stop.” I gestured to the building behind me. “Nice meeting you.”</p>
+<p>As I ducked into the building, I checked my phone again and saw a text from Dad. “Family dinner at 7.” Oops. I forgot about our weekly dinner. I quickly transported back to Hell and jogged to the back of our house where a dead tree with a perfect make-out nook (maybe that’s why the tree ended up in Hell?) stood below my window. The light was on in the kitchen. Drat. He beat me home. I’ll just climb up and pretend I’ve been chilling in my bedroom waiting for dinner.</p>
+<p>I hoisted myself up the tree. As I straddled my windowsill, ready to swing my other leg inside, I heard a noise that sounded like a throat being cleared. I looked up to see my dad sitting on the corner of my bed, arms crossed.</p>
+<p>“Do you normally come home by way of your bedroom window?”</p>
+<p>“No I uh…”</p>
+<p>He strode across the room to flick on the lights while I clambered the rest of the way in.</p>
+<p>“Where were you?” he demanded.</p>
+<p>“At Jan’s, studying.”</p>
+<p>“Try again.” He glowered at me. “I called Jan’s mom, and she confirmed you weren’t there. Were you, by any chance, in the <em>mortal realm</em>? Shiva told me she saw you stop a man from throwing his cigarette butt into the grass. She has a fire planned that you ruined.”</p>
+<p>I remained silent.</p>
+<p>“I don’t know what to do with you, young lady. You are so talented, yet you squander your gift.”</p>
+<p>“I’m not squandering it! I’m using it!”</p>
+<p>“To persuade people to <em>do good</em>? I had to bribe Shiva to keep quiet about what she saw. You are an embarrassment and a disgrace to my name.” He paced the room angrily. “You are going to Heaven, young lady.”</p>
+<p>“But finals!” I protested.</p>
+<p>“Obviously not important since you weren’t studying tonight, and apparently that school isn’t teaching you anything given your actions. You will spend summer break in Heaven. Be ready at 7 AM. Gabriel will pick you up.”</p>
+<p>With that, he stormed out of the room.</p>
+<p>I flopped onto my bed. Heaven. What a lousy place to spend summer vacation.</p>
+            </div>
+        </div>
+        <div class="story show SciFi">
+            <details>
+            <summary>They're Not Real</summary>
+            <div class="content">
+                <p>I was the first in line the day &quot;Good or Evil 3&quot; came out. From the new VR system, to the incredible graphics, to the insanely realistic characters, the world was completely immersive. The company claimed they had made a breakthrough in the NPC AI program that made each play through unique, as the NPCs changed based on their interaction with the player and each other.</p>
+<p>But the best part was you could do <strong>ANYTHING</strong>.</p>
+<p>Want to be good? Sure, you could hunt down bad guys, take them in, get paid a pittance. Rinse and repeat.</p>
+<p>I got bored of the &quot;good&quot; route after the first day. The &quot;evildoer&quot; route, on the other hand, was fantastic.</p>
+<p>Like a guy&#39;s pair of shoes? Mug him in an alley.</p>
+<p>Someone mouthing off to you? Maybe its time he didn&#39;t bother you, or anyone else, again.</p>
+<p>Low on cash? Theres a bank around the corner and the sheriff&#39;s on the other side of town.</p>
+<p>The only rule I lived by was in my late nights of gaming was, don&#39;t get caught. The game kept track of my &quot;murders&quot;. When I passed 20 on the fifth day of playing, I got the &quot;serial killer&quot; badge and unlocked a cool new outfit.</p>
+<p>The NPCs in my world started to get on edge. They kept talking about the killings, trying to figure out who did them. There were a few who suspected my character, so I offed them.</p>
+<p>On Friday, after a long day of work, I slumped onto my couch and threw on my headset, ready to blow off some steam. My mark was the mayor&#39;s son, who had managed to woo the girl I had had my eye on. He didn&#39;t take me seriously when I told him to back off. According to him, &quot;Jenny can make up her own mind&quot;. As if the NPCs actually had a mind!</p>
+<p>It didn&#39;t take long before I saw the son exit the mayor&#39;s house. From the shadows, I aimed my rifle, and took him in the chest with a single blast. Man, that was satisfying!</p>
+<p>The doorbell rang. Guess the pizza got here in record time, I thought. I paused the game, pulled off the headset, and walked to my front door, pulling out my wallet.</p>
+<p>It wasn&#39;t a pizza man standing on the other side of the door. The guy was twitchy, had a beanie pulled partway over his eyes, and kept glancing sideways. His hand was in his jacket pocket. His eyes locked on my wallet.</p>
+<p>&quot;Hey man,&quot; he said. &quot;I ain&#39;t got nothing, I really need a fix. You gotta hand that over.&quot;</p>
+<p>&quot;You&#39;re not the delivery man!&quot; I said. &quot;Get off my...&quot;</p>
+<p>It was over in an instant. A loud bang and I peered down to see a red spot getting larger on my chest. I fell backward, felt pain radiate out from my chest, felt my wallet getting pulled from my unresisting hands. Everything went black, then white.</p>
+<p>I was standing in a line. Pearly white clouds foaming beneath my feet, a golden gate about a block ahead. Despite the fact that it couldn&#39;t be more stereotypical, it took me a minute to realize I was dead and at the gates of heaven.</p>
+<p>The line moved forward, and I squinted to see what was happening at the gate. A man with a halo and a full head and beard of gray hair was admitting people through the gate, pausing to check notes on each person before they passed through.</p>
+<p>I did a double take. The man at the front of the line looked just like my mark, the mayor&#39;s son. As he walked through the gate,  I chalked the similarity up to coincidence or nerves.</p>
+<p>Finally it was my turn. Saint Peter, as it seemed based on his polished gold name tag, was frowning at his notes.</p>
+<p>&quot;So...&quot; I said. &quot;I know I&#39;m an atheist and all that, but I&#39;ve given to the poor and help my old neighbor take out her garbage.&quot;</p>
+<p>&quot;That&#39;s not the issue,&quot; Peter said, his voice a low rumble. &quot;Plenty of those without faith pass this gate, as long as they have lived a good life.&quot;</p>
+<p>&quot;Then what&#39;s the...&quot; I started.</p>
+<p>&quot;Did you think we would not know?&quot; Peter demanded, his voice rising. &quot;Did you think we would not know the people you have killed?&quot;</p>
+<p>I racked my brain. Had I inadvertently killed anyone?</p>
+<p>&quot;Don&#39;t play dumb,&quot; Peter went on. &quot;It says here you killed over 20 innocents this week. I just let the last of your victims though the gate not 10 minutes ago.&quot;</p>
+<p>I barely had time to shout, &quot;No, No!&quot; before Peter reached for a lever on his left side. The clouds beneath my feet disappeared, replaced by a  black hole.</p>
+<p>&quot;You don&#39;t understand! They&#39;re not real, they were never real!&quot; My voice echoed, as I fell down to my eternity.</p>
+<p>And then I realized. The breakthrough in AI did more than make the NPCs seem like people, it <strong>MADE</strong> them people.</p>
+            </div>
+        </div>
+        <div class="story show Humor">
+            <details>
+            <summary>The Chosen One</summary>
+            <div class="content">
+                <p>They destroyed our world.</p>
+<p>Drained our resources with their lavish lifestyles. Released toxic fumes into our air. Unleashed cataclysmic storms upon our planet.</p>
+<p>I was one of the Chosen Ones. I was destined to change everything.</p>
+<p>Or so I thought.</p>
+<p>Most nights I spent preparing myself. Taking with other Chosen Ones about the failures of our rulers. About how we would do better, when our time came.</p>
+<p>I confronted an Evil Tyrant once. Delivered a really sick burn on Twitter to this politician on how they talk about change, about saving the environment, but they live a life of waste. It made front page from r/murderedbywords. Other Chosen Ones agreed that particular Evil Tyrant was well slain.</p>
+<p>A few hours after my tweet went viral, I got a PM from the politician.  &quot;I envy your youth and energy for change. I used to be like you.&quot;</p>
+<p>Could it be that Evil Tyrants were once Chosen Ones?</p>
+<p>Ten years later, I take stock of my life.</p>
+<p>A family with kids. Paying off a house. Driving to work each day. Leaning more conservative, now that I&#39;m in a higher tax bracket. Living the American dream.</p>
+<p>Have I become what I despised?</p>
+<p>Wait!</p>
+<p>Phew, I just remembered. Each Christmas I donate 2% if my income to charity. This past year, I donated to Save the Pandas. God I love pandas. I could watch endless gifs of those cute cuddly things!</p>
+<p>Don&#39;t worry pandas, us Chosen Ones are looking out for you!</p>
+            </div>
+        </div>
+        <div class="story show">
+            <details>
+            <summary>Cult Revival</summary>
+            <div class="content">
+                <p>They used to fear me.</p>
+<p>Just mention my name, and the room would fall silent. Invoking me through the proper rites could topple kings from thrones or blight an entire nation&#39;s crops.</p>
+<p>Oh, the feeling! The fear, the awe, the devotion.</p>
+<p>But my own cultists betrayed me. They entombed my pulsing heartstone deep below the earth.</p>
+<p>As millennia passed, my heartstone grew ever weaker, cooling from a molten heat to that of coals the morning after the fire. Memories started to fade, including what humans even looked like. Everything faded except the memories of how it felt to be worshiped.</p>
+<p>Eventually, a new set of followers found me. They tunneled from the surface, perhaps to escape some unnamed threat. They made their home next to my heartstone, appreciating its heat without understanding what it was.</p>
+<p>I spoke to them first in dreams, presenting myself as the creature they feared most, slithering in deadly pursuit through their tunnels. Their fear gave me strength.</p>
+<p>I spoke to them next through action. Slaying a slithering beast as it invaded their home. Their awe gave me strength.</p>
+<p>I spoke to them in promises. In return they learned my rites.</p>
+<p>The tenor of their voices was too high. Their clumsy hands couldn&#39;t form the secret handshakes. Their attention span couldn&#39;t last through a single meditation, even after I immolated one for falling asleep.</p>
+<p>But that didn&#39;t matter. For it wasn&#39;t the rites themselves, but the devotion they signified that gave me strength.</p>
+<p>Alas, it wasn&#39;t enough to save me. My heartstone had cooled in the chill earth for too long to revive.</p>
+<p>But, as I descended into the final darkness, I realized I was content. I still mattered to someone.</p>
+<p>My humans, bless them from their tails to their furry-faced whiskers, would miss me when I was gone.</p>
+            </div>
+        </div>
+        <div class="story show Humor">
+            <details>
+            <summary>To Saturn</summary>
+            <div class="content">
+                <p>They thought I was crazy. But I had tested my materials, and they were of the finest quality.</p>
+<p>The shell was impervious to the friction of re-entry. The thrusters had only the most powerful jet fuel, a carbonated concoction specially developed for the mission. The steering system was state of the art.</p>
+<p>With a double ply corrugated cardboard body, soda cans for thrusters, and a frisbee as the steering wheel, what could go wrong?</p>
+<p>Unfortunately, I did have to kidnap the prime minister. They would have tried to stop me otherwise. People were always afraid of progress.</p>
+<p>With a magic marker I put the finishing touches on my spaceship, adding lights on the wings, and writing &quot;C&amp;H&quot; in big, bold letters on the side.</p>
+<p>I also stashed a bag of chips in the cockpit. It would be a long flight to Saturn after all, and I might get hungry.</p>
+<p>&quot;Are you ready, Mr. Prime minister?&quot; I asked.</p>
+<p>&quot;No! I&#39;m scared of heights,&quot; said Hobbes.</p>
+<p>&quot;Too late. 3, 2, 1, liftoff!&quot;</p>
+            </div>
+        </div>
+        <div class="story show Humor">
+            <details>
+            <summary>Trump Imprint</summary>
+            <div class="content">
+                <p>The air was thick with smoke, the landscape strewn with rubble.</p>
+<p>&quot;How did this happen?!&quot; the professor demanded of his grad student.</p>
+<p>Soon after their lab had created the first real AI , it started a social media movement not seen in generations. Playing on tribalist fears, it drummed up a nationalist movement that siphoned all discretionary income to rebuild the US military, an entity that had atrophied during centuries of peace. What wasn&#39;t spend on the military was spent on the Wall. A symbolism of isolation from the rest of the world. In some places it was &quot;a see through wall&quot;, but certainly not a fence.</p>
+<p>Bellicose rhetoric triggered wars first with the Middle East, then countries on the Asian Pacific, then finally and with great sorrow, Western countries that had once been proud to call America an ally.</p>
+<p>&quot;As far as we can tell, when we trained the AI on an old social media platform called &#39;Twitter&#39;, it imprinted on the tweets of this man.&quot; The student explained, pointing to the holographic display.</p>
+<p>&quot;Was he what they called, an &#39;internet troll&#39;?&quot; The professor asked.</p>
+<p>&quot;Yes, but in his spare time he was a President.&quot;</p>
+            </div>
+        </div>
+        <div class="story show Humor SciFi">
+            <details>
+            <summary>First Food in a Millennia</summary>
+            <div class="content">
+                <p><em>1000 years ago, scientists found a way to give humans chlorophyll, enabling humans to survive solely on sunlight. Humans evolved and lost the need and instinct to eat.</em></p>
+<p>A sea of green faces stare up at me in admiration as I jump across the rooftops. My energy is boundless.</p>
+<p>It all started with a silly dare to see how many exotic things called &quot;banninnaz&quot; I could fit in by mouth. Being the klutz that I am, I choked. I was about to asphyxiate from lack of carbon dioxide when some latent instinct kicked in and I swallowed the banninna. It was almost as if I was drinking it, except it was solid!</p>
+<p>The blood sugar rush hit me 30 minutes later, and I&#39;ve been jumping around ever since. Although, in the last few minutes I&#39;ve been getting stomach cramps. Must be a sideache from all that jumping...</p>
+<p>Trying to ignore the cramps, I wave cheerfully down at Suzzi. I&#39;ve had a crush on her since we were just 100.</p>
+<p>That is when it hits me; a very peculiar sensation in my lower extremity. Below, a sea of brown faces look up at me in confusion.</p>
+            </div>
+        </div>
+        <div class="story show">
+            <details>
+            <summary>Memories Through Death</summary>
+            <div class="content">
+                <p>The first time was an accident. I&#39;m ashamed to admit I fled the scene after I hit him. Hosed the car down in the driveway, tried to pretend it never happened.</p>
+<p>I chalked up the ensuing dreams up to guilt. Memories of another life. Memories of a kind and better man than I. Memories I thought I had imagined for the man I had hit...until I read his obituary. Turns out, all those memories were actually real. Memories from a loving father, devoted husband, and passionate scientist.</p>
+<p>The memories became more meaningful than my own, perhaps because the life of the man I had killed was better lived than mine. That was when I realized I wanted to take more lives, and gain experiences from every walk of life.</p>
+<p>My first and only victim was the week after. She backed up the alley as I closed in. I could hear the fear in her voice as she called for help.</p>
+<p>&quot;Not this way.&quot; I somehow knew the voice in my head was not my own; it was the voice of the man I had killed.</p>
+<p>Now I am in Oregon. Under their death with dignity act, I help those who have lived a full life and are in terminal stages of illness. I am the one who takes then off life support.</p>
+<p>Those who believe in my ability often request me specifically. In a way, they live on through me. In return, I try to share their wisdom with the world.</p>
+            </div>
+        </div>
+        <div class="story show">
+            <details>
+            <summary>Love is in the Air</summary>
+            <div class="content">
+                <p>Cards with hearts, roses, and half eaten boxes of chocolate lie strewn across the ground. Wisps of pink clouds float lazily among amorous couples, young and old. Some couples merge into larger groups that would put <em>Brave New World</em> to shame.</p>
+<p>In the shadows, I watches through my gas mask, then retreat to give my report.</p>
+<p>Day 23 since the Hallmark Chemical Engineering division launched Operation Lovesick.</p>
+            </div>
+        </div>
     </div>
 
     <footer>
-        <p>&#169; 2020 Colin Thom</p>
+        <p>&#169; 2020 Colin Thom and Sarah Edwards</p>
     </footer>
 
     <script src="script.js"></script>
