@@ -4,7 +4,7 @@ const config = {
     authorName: "Colin Thom and Sarah Edwards",
     dev: {
       contentDir: "./content",
-      categories: ["Fantasy", "SciFi", "Humor", "Horror", "Poetry", "Micro"]
+      categories: ["Fantasy", "SciFi", "Magical Realism", "Humor", "Horror", "Poetry", "Micro"]
     }
   };
   

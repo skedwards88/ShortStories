@@ -10,6 +10,7 @@
 // todo look into map or foreach instead of loop. what is better?
 // flavicon
 // way to control font size on mobile?
+// get serial killer story, banana, asteroid
 
 function show(category) {
     // For each element with class "story", 
