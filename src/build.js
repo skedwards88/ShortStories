@@ -41,16 +41,21 @@ const buildHTML = function(stories) {
     <header>
         <div class="menu">
             <button id="menu-button" onclick="toggleMenu()"></button>
-            <h1>${config.siteName}</h1>
+            <div id="title">
+                <h1>${config.siteName}</h1>
+                <h2>by ${config.authorName}</h2>
+            </div>
         </div>
         <div id="controls">
             <div id="categories">
                 <input type="checkbox" checked="true" id="checkAll" name="checkAll" onclick="toggleAll(this)">
-                <label for="checkAll">Show all</label><br>\
+                <label for="checkAll">Show All</label><br>\
                 ${config.dev.categories.map(category => buildCheckbox(category)).join("")}
             </div>
-            <button id="showHideButton" class="control-button" onclick="expandCollapseAll(this)">Expand All</button>
-            <button id="reverseOrder" class="control-button" onclick="reverseOrder(this)">Oldest first</button>
+            <div id="control-buttons">
+                <button id="showHideButton" class="control-button" onclick="expandCollapseAll(this)">Expand All</button>
+                <button id="reverseOrder" class="control-button" onclick="reverseOrder(this)">Oldest First</button>
+            </div>
         </div>
     </header>
     <div id="stories" class="stories">${stories.map(story => buildStory(story)).join("")}

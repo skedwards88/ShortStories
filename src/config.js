@@ -1,10 +1,10 @@
 const config = {
     siteName: "Short Stories",
-    siteDescription: "Short stories by Colin Thom",
-    authorName: "Colin Thom",
+    siteDescription: "Short stories by Colin Thom and Sarah Edwards",
+    authorName: "Colin Thom and Sarah Edwards",
     dev: {
       contentDir: "./content",
-      categories: ["Fantasy", "Humor", "SciFi"]
+      categories: ["Fantasy", "SciFi", "Humor", "Horror", "Poetry", "Micro"]
     }
   };
   

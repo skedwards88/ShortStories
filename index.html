@@ -21,13 +21,19 @@
         <div id="controls">
             <div id="categories">
                 <input type="checkbox" checked="true" id="checkAll" name="checkAll" onclick="toggleAll(this)">
-                <label for="checkAll">Show all</label><br>                
+                <label for="checkAll">Show All</label><br>                
                 <input type="checkbox" checked="true" id="Fantasy" name="Fantasy" class="category" onclick="toggleCategory(this, 'Fantasy')">
                 <label for="Fantasy">Fantasy</label><br>
-                <input type="checkbox" checked="true" id="Humor" name="Humor" class="category" onclick="toggleCategory(this, 'Humor')">
-                <label for="Humor">Humor</label><br>
                 <input type="checkbox" checked="true" id="SciFi" name="SciFi" class="category" onclick="toggleCategory(this, 'SciFi')">
                 <label for="SciFi">SciFi</label><br>
+                <input type="checkbox" checked="true" id="Humor" name="Humor" class="category" onclick="toggleCategory(this, 'Humor')">
+                <label for="Humor">Humor</label><br>
+                <input type="checkbox" checked="true" id="Horror" name="Horror" class="category" onclick="toggleCategory(this, 'Horror')">
+                <label for="Horror">Horror</label><br>
+                <input type="checkbox" checked="true" id="Poetry" name="Poetry" class="category" onclick="toggleCategory(this, 'Poetry')">
+                <label for="Poetry">Poetry</label><br>
+                <input type="checkbox" checked="true" id="Micro" name="Micro" class="category" onclick="toggleCategory(this, 'Micro')">
+                <label for="Micro">Micro</label><br>
             </div>
             <div id="control-buttons">
                 <button id="showHideButton" class="control-button" onclick="expandCollapseAll(this)">Expand All</button>
@@ -52,14 +58,14 @@
 <p>We became known as the Fallen Generation. Our children were know as the Last Generation.</p>
             </div>
         </div>
-        <div class="story show Fantasy">
+        <div class="story show Fantasy Micro">
             <details>
             <summary>The Four Little Pigs</summary>
             <div class="content">
                 <p>The fourth pig lived in a van and just drove away from the wolf. Puff puff puff.</p>
             </div>
         </div>
-        <div class="story show Fantasy">
+        <div class="story show Fantasy Micro">
             <details>
             <summary>The Princess and the Dragon</summary>
             <div class="content">
@@ -250,7 +256,7 @@
 <p>&quot;Yes, but in his spare time he was a President.&quot;</p>
             </div>
         </div>
-        <div class="story show Humor SciFi">
+        <div class="story show SciFi Humor">
             <details>
             <summary>First Food in a Millennia</summary>
             <div class="content">
@@ -275,7 +281,7 @@
 <p>Those who believe in my ability often request me specifically. In a way, they live on through me. In return, I try to share their wisdom with the world.</p>
             </div>
         </div>
-        <div class="story show">
+        <div class="story show Micro">
             <details>
             <summary>Love is in the Air</summary>
             <div class="content">

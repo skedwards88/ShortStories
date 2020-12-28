@@ -6,8 +6,22 @@
 }
 
 body {
-  font-family: sans-serif;
+  /* font-family: Calibri, 'Trebuchet MS', sans-serif; */
+  font-family: Arial, Helvetica, sans-serif;
   background-color: var(--light-text);
+}
+
+h1 {
+  font-size: x-large;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+h2 {
+  font-size: smaller;
+  font-weight: normal;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 button {
@@ -24,12 +38,12 @@ button {
 
 #menu-button {
   background-image: url('./menu.png');
-  width: 30px;
-  height: 30px;
+  width: 32px;
+  height: 32px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0 10px 0 5px;
+  margin: 0 15px 0 5px;
 }
 
 #menu-button:hover {
@@ -38,12 +52,21 @@ button {
 
 #controls {
   display: flex;
-  flex-direction: column;
-  background-color: var(--light-color);
+  flex-direction: row;
+  background-color: var(--light-text);
   padding: 10px;
-  border-bottom: 3px solid var(--dark-color);
   color: var(--dark-text);
 }
+
+#categories {
+  margin-right: 20px;
+}
+
+#control-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
 
 .control-button {
   width: fit-content;
@@ -65,7 +88,6 @@ button {
 
 .story {
   float: left;
-  text-align: center;
   margin: 2px;
   border: 5px;
   display: none;
@@ -80,11 +102,6 @@ summary {
   color: var(--light-text);
   cursor: pointer;
   padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
 }
 
 summary:hover {
