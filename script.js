@@ -2,11 +2,10 @@
 // make sure mobile friendly
 // reroute cns site
 // front matter linter for categories--must have one cat true, must only have allowed tags, no dup tags
-// /* todo make a separate hover icon so control image color also */
+// style the check boxes
 // todo look into map or foreach instead of loop. what is better?
-// flavicon
 // way to control font size on mobile?
-// get serial killer story, banana, asteroid
+// get asteroid story
 
 function show(category) {
     // For each element with class "story", 

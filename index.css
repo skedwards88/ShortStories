@@ -26,7 +26,12 @@ h2 {
 
 button {
   border-radius: 5px;
-  border: 1px solid var(--dark-text);
+  border: 2px solid var(--dark-color);
+  font-size: medium;
+}
+
+button:focus {
+  outline: none;
 }
 
 .menu {
@@ -37,7 +42,7 @@ button {
 }
 
 #menu-button {
-  background-image: url('./menu.png');
+  background-image: url('./menu_dark.png');
   width: 32px;
   height: 32px;
   background-position: center;
@@ -47,7 +52,8 @@ button {
 }
 
 #menu-button:hover {
-  background-color: var(--light-color);
+  background-image: url('./menu_light.png');
+  background-color: var(--dark-color);
 }
 
 #controls {
