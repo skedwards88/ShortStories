@@ -4,13 +4,14 @@ author: Colin Thom
 date_utc: 1546483660.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/ac0mux/wp_youve_accidentally_summoned_an_ancient/
-Fantasy: true
-SciFi: false
-Humor: true
-Magical Realism: false
-Horror: false
-Poetry: false
-Micro: false
+categories:
+  Fantasy: true
+  SciFi: false
+  Humor: true
+  Magical Realism: false
+  Horror: false
+  Poetry: false
+  Micro: false
 ---
 "[MALSJÖ](https://www.ikea.com/us/en/catalog/products/60327774/)," I said. Or tried to say, given I had no idea how an "O" with two dots above was pronounced.
 

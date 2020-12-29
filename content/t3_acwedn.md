@@ -4,13 +4,14 @@ author: Colin Thom
 date_utc: 1546712106.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/acwedn/wp_in_the_distant_future_the_first_intelligent_ai/
-Fantasy: false
-SciFi: true
-Humor: true
-Magical Realism: false
-Horror: false
-Poetry: false
-Micro: false
+categories:
+  Fantasy: false
+  SciFi: true
+  Humor: true
+  Magical Realism: false
+  Horror: false
+  Poetry: false
+  Micro: false
 ---
 The air was thick with smoke, the landscape strewn with rubble.
 

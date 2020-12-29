@@ -4,13 +4,14 @@ author: Colin Thom
 date_utc: 1600741493.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/ix3rvh/wp_no_no_you_dont_understand_theyre_not_real_they/
-Fantasy: false
-SciFi: true
-Humor: false
-Magical Realism: true
-Horror: false
-Poetry: false
-Micro: false
+categories:
+  Fantasy: false
+  SciFi: true
+  Humor: false
+  Magical Realism: true
+  Horror: false
+  Poetry: false
+  Micro: false
 ---
 I was the first in line the day "Good or Evil 3" came out. From the new VR system, to the incredible graphics, to the insanely realistic characters, the world was completely immersive. The company claimed they had made a breakthrough in the NPC AI program that made each play through unique, as the NPCs changed based on their interaction with the player and each other.
 

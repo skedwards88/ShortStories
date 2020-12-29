@@ -4,13 +4,14 @@ author: Colin Thom
 date_utc: 1561475982.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/c56jjo/wp_you_are_eating_a_midnight_snack_and_a_serial/
-Fantasy: false
-SciFi: false
-Humor: false
-Magical Realism: false
-Horror: true
-Poetry: false
-Micro: false
+categories:
+  Fantasy: false
+  SciFi: false
+  Humor: false
+  Magical Realism: false
+  Horror: true
+  Poetry: false
+  Micro: false
 ---
 I didn't notice the signs until it was almost too late.
 

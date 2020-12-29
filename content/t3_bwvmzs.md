@@ -4,13 +4,14 @@ author: Colin Thom
 date_utc: 1559701069.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/bwvmzs/wp_shortly_after_marrying_into_an_unbelievably/
-Fantasy: false
-SciFi: true
-Humor: false
-Magical Realism: false
-Horror: true
-Poetry: false
-Micro: false
+categories:
+  Fantasy: false
+  SciFi: true
+  Humor: false
+  Magical Realism: false
+  Horror: true
+  Poetry: false
+  Micro: false
 ---
 I never felt comfortable here.
 

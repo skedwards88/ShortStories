@@ -4,13 +4,14 @@ author: Colin Thom
 date_utc: 1538037296.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/9jaduj/wp1000_years_ago_scientists_have_found_a_way_to/
-Fantasy: false
-SciFi: true
-Humor: true
-Magical Realism: false
-Horror: false
-Poetry: false
-Micro: false
+categories:
+  Fantasy: false
+  SciFi: true
+  Humor: true
+  Magical Realism: false
+  Horror: false
+  Poetry: false
+  Micro: false
 ---
 *1000 years ago, scientists found a way to give humans chlorophyll, enabling humans to survive solely on sunlight. Humans evolved and lost the need and instinct to eat.*
 

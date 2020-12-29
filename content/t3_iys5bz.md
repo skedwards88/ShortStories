@@ -4,13 +4,14 @@ author: Colin Thom
 date_utc: 1600956855.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/iys5bz/wp_in_the_afterlife_souls_can_see_how_many_living/
-Fantasy: false
-SciFi: false
-Humor: true
-Magical Realism: true
-Horror: false
-Poetry: false
-Micro: false
+categories:
+  Fantasy: false
+  SciFi: false
+  Humor: true
+  Magical Realism: true
+  Horror: false
+  Poetry: false
+  Micro: false
 ---
 “Those who lived a quiet life live a quiet death.” So they say here in the afterlife.
 

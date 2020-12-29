@@ -4,13 +4,14 @@ author: Colin Thom
 date_utc: 1565752646.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/cpxk2b/wp_turns_out_humanity_was_alone_in_the_universe/
-Fantasy: false
-SciFi: true
-Humor: false
-Magical Realism: false
-Horror: false
-Poetry: false
-Micro: false
+categories:
+  Fantasy: false
+  SciFi: true
+  Humor: false
+  Magical Realism: false
+  Horror: false
+  Poetry: false
+  Micro: false
 ---
 At a glance, it was a barren planet. Indistinguishable from billions of other planets in the Milky Way.
 

@@ -4,12 +4,14 @@ author: Colin Thom
 date_utc: 1545199758.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/a7gn1w/wp_every_time_you_are_in_danger_no_matter_where/
-Humor: false
-Fantasy: false
-Horror: false
-Magical Realism: true
-Poetry: false
-SciFi: true
+categories:
+  Humor: false
+  Fantasy: false
+  Horror: false
+  Magical Realism: true
+  Poetry: false
+  SciFi: true
+  Micro:  false
 ---
 "You really don't want to do this."
 

@@ -4,13 +4,14 @@ author: Colin Thom
 date_utc: 1546714436.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/acwmxu/wp_after_15_years_in_prison_your_beard_has_grown/
-Fantasy: false
-SciFi: false
-Humor: false
-Magical Realism: true
-Horror: true
-Poetry: false
-Micro: false
+categories:
+  Fantasy: false
+  SciFi: false
+  Humor: false
+  Magical Realism: true
+  Horror: true
+  Poetry: false
+  Micro: false
 ---
 I tried to shave, I really did. But every time I raised a razor to my face, my beard slapped it away.
 

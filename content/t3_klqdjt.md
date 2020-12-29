@@ -4,13 +4,14 @@ author: Colin Thom
 date_utc: 1609169885.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/klqdjt/wp_aging_has_been_cured_for_hundreds_of_years_now/
-Fantasy: false
-SciFi: true
-Humor: false
-Magical Realism: false
-Horror: false
-Poetry: false
-Micro: false
+categories:
+  Fantasy: false
+  SciFi: true
+  Humor: false
+  Magical Realism: false
+  Horror: false
+  Poetry: false
+  Micro: false
 ---
 The Lost Generation. That’s what we thought of our parents, though in their time they were known as GenX. By the time life extension was developed (and FDA approved) in the late 21st century, they were too far gone to benefit. Aging could be halted, not reversed.
 

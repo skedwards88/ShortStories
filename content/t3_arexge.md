@@ -4,13 +4,14 @@ author: Colin Thom
 date_utc: 1550381948.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/arexge/wptheyre_not_the_best_dark_cultists_they_mumble/
-Fantasy: true
-SciFi: false
-Humor: true
-Magical Realism: false
-Horror: false
-Poetry: false
-Micro: false
+categories:
+  Fantasy: true
+  SciFi: false
+  Humor: true
+  Magical Realism: false
+  Horror: false
+  Poetry: false
+  Micro: false
 ---
 They used to fear me.
 

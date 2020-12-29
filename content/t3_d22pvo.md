@@ -4,13 +4,14 @@ author: Colin Thom
 date_utc: 1568103809.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/d22pvo/wp_youre_a_gravekeeper_the_dead_are_buried_with/
-Fantasy: false
-SciFi: false
-Humor: false
-Magical Realism: false
-Horror: true
-Poetry: false
-Micro: false
+categories:
+  Fantasy: false
+  SciFi: false
+  Humor: false
+  Magical Realism: false
+  Horror: true
+  Poetry: false
+  Micro: false
 ---
 I’ve seen every kind of person you can imagine laid to their final rest. But I’ve only ever seen one wake up.
 

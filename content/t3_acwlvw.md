@@ -4,13 +4,14 @@ author: Colin Thom
 date_utc: 1546713420.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/acwlvw/wp_you_were_one_of_the_chosen_heroes_tasked_with/
-Fantasy: true
-SciFi: true
-Humor: false
-Magical Realism: false
-Horror: false
-Poetry: false
-Micro: false
+categories:
+  Fantasy: true
+  SciFi: true
+  Humor: false
+  Magical Realism: false
+  Horror: false
+  Poetry: false
+  Micro: false
 ---
 We didn't remember who we were, or why we were brought to the world of Akola.
 

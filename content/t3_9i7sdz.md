@@ -4,13 +4,14 @@ author: Colin Thom
 date_utc: 1537715811.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/9i7sdz/wp_you_accidentally_kill_a_person_instantly_you/
-Fantasy: false
-SciFi: false
-Humor: false
-Magical Realism: true
-Horror: true
-Poetry: false
-Micro: false
+categories:
+  Fantasy: false
+  SciFi: false
+  Humor: false
+  Magical Realism: true
+  Horror: true
+  Poetry: false
+  Micro: false
 ---
 The first time was an accident. I'm ashamed to admit I fled the scene after I hit him. Hosed the car down in the driveway, tried to pretend it never happened.
 

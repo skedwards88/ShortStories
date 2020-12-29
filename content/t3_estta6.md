@@ -4,13 +4,14 @@ author: Colin Thom
 date_utc: 1579800049.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/estta6/wp_as_a_demon_youre_quite_familiar_with_wouldbe/
-Fantasy: true
-SciFi: false
-Humor: true
-Magical Realism: false
-Horror: false
-Poetry: false
-Micro: false
+categories:
+  Fantasy: true
+  SciFi: false
+  Humor: true
+  Magical Realism: false
+  Horror: false
+  Poetry: false
+  Micro: false
 ---
 It had been centuries since I was summoned. Last time, the blood of 100 virgins had been sacrificed to call me from the shadow realms. It was barely enough payment for the ask; I killed one king and installed another.
 
