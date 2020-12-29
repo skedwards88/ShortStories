@@ -11,7 +11,7 @@ function buildStory(story) {
     }
 
     return `
-        <div class="${'story show ' + tags.join(" ")}">
+        <div class="${'story show ' + tags.map(tag => tag.replace(/\s+/g, '')).join(", ")}">
             <details>
             <summary>${story.attributes.title}</summary>
             <div class="content">
@@ -23,8 +23,8 @@ function buildStory(story) {
 
 function buildCheckbox(label) {
     return `
-                <input type="checkbox" checked="true" id="${label}" name="${label}" class="category" onclick="toggleCategory(this, '${label}')">
-                <label for="${label}">${label}</label><br>`
+                <input type="checkbox" checked="true" id="${label.replace(/\s+/g, '')}" name="${label.replace(/\s+/g, '')}" class="category" onclick="toggleCategory(this, '${label.replace(/\s+/g, '')}')">
+                <label for="${label.replace(/\s+/g, '')}">${label}</label><br>`
 }
 
 function buildHTML(stories) {
