@@ -1,7 +1,6 @@
 ---
 title: Cereal Killer
 author: Sarah Edwards
-date: 1561475982.0
 edited: true
 permalink: null
 Fantasy: false
