@@ -32,7 +32,7 @@ while num_comments == limit:
                 '---',
                 f'title: {comment["data"]["link_title"]}',
                 'author: Colin Thom',
-                f'date: {comment["data"]["created_utc"]}',
+                f'date_utc: {comment["data"]["created_utc"]}',
                 'edited: true',
                 f'permalink: {comment["data"]["link_permalink"]}',
                 'Fantasy: false',
