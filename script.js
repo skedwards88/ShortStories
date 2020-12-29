@@ -1,5 +1,3 @@
-//  https://stackoverflow.com/questions/2033711/how-can-i-attach-meta-data-to-a-dom-node
-// make sure mobile friendly
 // reroute cns site
 // front matter linter for categories--must have one cat true, must only have allowed tags, no dup tags
 // style the check boxes
