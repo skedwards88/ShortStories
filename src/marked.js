@@ -1,9 +1,9 @@
 const marked = require("marked");
+const hljs = require("highlight.js");
 
 marked.setOptions({
   renderer: new marked.Renderer(),
   highlight: function(code, language) {
-    const hljs = require("highlight.js");
     const validLanguage = hljs.getLanguage(language) ? language : "plaintext";
     return hljs.highlight(validLanguage, code).value;
   },

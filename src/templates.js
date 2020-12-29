@@ -2,8 +2,7 @@ const fs = require("fs");
 const config = require("./config");
 
 function buildStory(story) {
-    // Append the story's categories to the class name; these will be used for filtering by category
-    // Also
+    // Get the story's categories
     let tags = []
     for (i = 0; i < config.dev.categories.length; i++) {
         if (story.attributes[config.dev.categories[i]]) {
@@ -28,7 +27,7 @@ function buildCheckbox(label) {
                 <label for="${label}">${label}</label><br>`
 }
 
-const buildHTML = function(stories) {
+function buildHTML(stories) {
     return`\
 <!DOCTYPE html>
 <html lang="en">
@@ -77,11 +76,4 @@ const buildHTML = function(stories) {
 
 </html>`};
 
-const writeHTML = stories => {
-    fs.writeFile(`./index.html`, buildHTML(stories), e => {
-        if (e) throw e;
-        console.log(`index.html was created successfully`);
-    });
-};
-
-module.exports = writeHTML;
+module.exports = buildHTML;
