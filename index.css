@@ -51,7 +51,7 @@ button:focus {
   margin: 0 15px 0 5px;
 }
 
-#menu-button:hover {
+#menu-button:active {
   background-image: url('./images/menu_light.png');
   background-color: var(--dark-color);
 }
@@ -81,7 +81,7 @@ button:focus {
   color: var(--dark-text);
 }
 
-.control-button:hover {
+.control-button:active {
   background-color: var(--dark-color);
   color: var(--light-text);
 }
@@ -115,7 +115,7 @@ summary {
   padding: 18px;
 }
 
-summary:hover {
+summary:active {
   background-color: var(--light-color);
 }
 
@@ -129,4 +129,21 @@ summary:focus {
   transition: max-height 0.2s ease-out;
   background-color: var(--light-text);
   color: var(--dark-text)
+}
+
+@media (hover: hover) {
+  .control-button:hover {
+    background-color: var(--dark-color);
+    color: var(--light-text);
+  }
+
+  summary:hover {
+    background-color: var(--light-color);
+  }
+  
+  #menu-button:hover {
+    background-image: url('./images/menu_light.png');
+    background-color: var(--dark-color);
+  }
+  
 }
