@@ -1,7 +1,7 @@
 ---
 title: Living on Through Memory
 author: Colin Thom
-date: 1600956855.0
+date_utc: 1600956855.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/iys5bz/wp_in_the_afterlife_souls_can_see_how_many_living/
 Fantasy: false

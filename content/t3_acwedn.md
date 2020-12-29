@@ -1,7 +1,7 @@
 ---
 title: Twitter Imprint
 author: Colin Thom
-date: 1546712106.0
+date_utc: 1546712106.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/acwedn/wp_in_the_distant_future_the_first_intelligent_ai/
 Fantasy: false

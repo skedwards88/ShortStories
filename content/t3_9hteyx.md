@@ -1,7 +1,7 @@
 ---
 title: Love is in the Air
 author: Colin Thom
-date: 1537569138.0
+date_utc: 1537569138.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/9hteyx/wplove_is_in_the_air_wear_a_gas_mask/
 Fantasy: false

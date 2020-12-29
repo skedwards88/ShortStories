@@ -1,7 +1,7 @@
 ---
 title: I Would Hate to Die on an Empty Stomach
 author: Colin Thom
-date: 1561475982.0
+date_utc: 1561475982.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/c56jjo/wp_you_are_eating_a_midnight_snack_and_a_serial/
 Fantasy: false

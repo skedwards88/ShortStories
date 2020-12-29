@@ -1,7 +1,7 @@
 ---
 title: Banninnaz
 author: Colin Thom
-date: 1538037296.0
+date_utc: 1538037296.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/9jaduj/wp1000_years_ago_scientists_have_found_a_way_to/
 Fantasy: false

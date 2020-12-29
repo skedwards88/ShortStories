@@ -1,7 +1,7 @@
 ---
 title: Beard
 author: Colin Thom
-date: 1546714436.0
+date_utc: 1546714436.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/acwmxu/wp_after_15_years_in_prison_your_beard_has_grown/
 Fantasy: false

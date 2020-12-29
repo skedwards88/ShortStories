@@ -1,7 +1,7 @@
 ---
 title: Thanks for the Invite
 author: Colin Thom
-date: 1602342385.0
+date_utc: 1602342385.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/j8kaym/wp_you_died_and_was_sent_to_hell_but_upon/
 Fantasy: false

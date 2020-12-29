@@ -1,7 +1,7 @@
 ---
 title: Cruelty-Free Vegan Blood Substitute
 author: Colin Thom
-date: 1579800049.0
+date_utc: 1579800049.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/estta6/wp_as_a_demon_youre_quite_familiar_with_wouldbe/
 Fantasy: true

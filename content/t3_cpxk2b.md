@@ -1,7 +1,7 @@
 ---
 title: We Have Failed
 author: Colin Thom
-date: 1565752646.0
+date_utc: 1565752646.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/cpxk2b/wp_turns_out_humanity_was_alone_in_the_universe/
 Fantasy: false

@@ -1,7 +1,7 @@
 ---
 title: Hey Siri
 author: Colin Thom
-date: 1545199758.0
+date_utc: 1545199758.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/a7gn1w/wp_every_time_you_are_in_danger_no_matter_where/
 Humor: false

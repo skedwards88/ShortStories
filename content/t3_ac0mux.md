@@ -1,7 +1,7 @@
 ---
 title: MALSJÖ
 author: Colin Thom
-date: 1546483660.0
+date_utc: 1546483660.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/ac0mux/wp_youve_accidentally_summoned_an_ancient/
 Fantasy: true

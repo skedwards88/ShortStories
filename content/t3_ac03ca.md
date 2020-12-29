@@ -1,7 +1,7 @@
 ---
 title: One Way Trip
 author: Colin Thom
-date: 1546481258.0
+date_utc: 1546481258.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/ac03ca/wp_you_have_a_time_machine_which_can_only_go_into/
 Fantasy: false
