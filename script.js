@@ -1,6 +1,4 @@
-// reroute cns site
 // front matter linter for categories--must have one cat true, must only have allowed tags, no dup tags
-// style the check boxes
 // todo look into map or foreach instead of loop. what is better?
 // way to control font size on mobile?
 // get asteroid story
