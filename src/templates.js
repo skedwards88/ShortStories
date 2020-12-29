@@ -5,7 +5,7 @@ function buildStory(story) {
     // Get the story's categories
     let tags = []
     for (i = 0; i < config.dev.categories.length; i++) {
-        if (story.attributes[config.dev.categories[i]]) {
+        if (story.attributes.categories[config.dev.categories[i]]) {
             tags.push(config.dev.categories[i])
         }
     }
