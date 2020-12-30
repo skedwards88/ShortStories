@@ -15,3 +15,10 @@ jobs:
         node-version: 12.x
     - run: npm install
     - run: npm run build
+    - name: push changes to remote
+      run: |
+        git config --global user.name "skedwards88"
+        git config --global user.email "skedwards88@gmail.com"
+        git add index.html
+        git commit -m "commit message"
+        git push
