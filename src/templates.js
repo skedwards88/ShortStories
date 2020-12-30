@@ -65,7 +65,7 @@ function buildHTML(stories) {
         ${`<p>&#169; ${new Date().getFullYear()} ${config.authorName}</p>`}
     </footer>
 
-    <script src="script.js"></script>
+    <script src="index.js"></script>
 
 </body>
 

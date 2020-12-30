@@ -9,6 +9,6 @@ Some of these stories were originally posted on reddit. `.github/workflows/story
 
 `build.js` generates the HTML for the short story site, using `templates.js`
 
-Styling and scripts for the output HTML file are in `index.css` and `scripts.js`. 
+Styling and scripts for the output HTML file are in `index.css` and `index.js`. 
 
 To build the html file, run `npm run build`.
