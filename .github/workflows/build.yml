@@ -1,6 +1,10 @@
 name: Build
 
-on: [workflow_dispatch] # TODO change to push
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   build:
@@ -20,5 +24,5 @@ jobs:
         git config --global user.name "skedwards88"
         git config --global user.email "skedwards88@gmail.com"
         git add index.html
-        git commit -m "commit message"
+        git commit -m "build via workflow"
         git push
