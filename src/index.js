@@ -5,16 +5,18 @@ const fm = require("front-matter");
 const marked = require("marked");
 
 function parseStory(storyPath) {
-    const data = fs.readFileSync(`${config.dev.contentDir}/${storyPath}.md`, "utf8");
+    const data = fs.readFileSync(`${config.dev.contentDir}/${storyPath}`, "utf8");
     const content = fm(data);
     content.body = marked(content.body);
     content.path = storyPath;
     return content;
 };
 
+// Read all the stories from the content directory, 
+// and generate an object for each story containing 
+// the front matter data and the HTML-marked up story
 const stories = fs
     .readdirSync(config.dev.contentDir)
-    .map(story => story.slice(0, -3)) // drops the .md
     .map(story => parseStory(story))
     .sort(function (a, b) { // sort by date so latest story is first
         return b.attributes.date_utc - a.attributes.date_utc;

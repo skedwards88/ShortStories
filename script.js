@@ -1,5 +1,4 @@
 // front matter linter for categories--must have one cat true, must only have allowed tags, no dup tags
-// todo look into map or foreach instead of loop. what is better?
 // way to control font size on mobile?
 // get asteroid story
 
@@ -8,22 +7,13 @@ function show(category) {
     // if the element also has the class [category], 
     // add the class "show"
     var storyDivs = document.getElementsByClassName("story");
-    for (i = 0; i < storyDivs.length; i++) {
-        if (storyDivs[i].classList.contains(category)) {
-            storyDivs[i].classList.add("show");
-        }
-    }
+    Array.from(storyDivs).forEach(storyDiv => {if (storyDiv.classList.contains(category)) storyDiv.classList.add("show")});
 }
 
 function hide(category) {
     // Figure out which categories are checked
     var checkboxes = document.getElementsByClassName('category');
-    var checkedCategories = [];
-    for (var i = 0; i < checkboxes.length; i++) {
-        if (checkboxes[i].checked) {
-            checkedCategories.push(checkboxes[i].name)
-        }
-    }
+    var checkedCategories = Array.from(checkboxes).filter(checkbox => checkbox.checked).map(checkbox => checkbox.name);
 
     // For each element with class "story", 
     // If the story's categories do not match any of the checked categories, 
@@ -31,10 +21,7 @@ function hide(category) {
     var storyDivs = document.getElementsByClassName("story");
     for (i = 0; i < storyDivs.length; i++) {
         if (storyDivs[i].classList.contains(category)) {
-            var checkedStoryCategories = checkedCategories.filter(filterCategories);
-            function filterCategories(value, index, array) {
-                return storyDivs[i].classList.contains(value);
-            }
+            var checkedStoryCategories = checkedCategories.filter(checked => storyDivs[i].classList.contains(checked));
             if (checkedStoryCategories.length === 0) {
                 storyDivs[i].classList.remove("show");
             }
@@ -46,18 +33,14 @@ function showAll() {
     // For each element with class "story", 
     // add the class "show"
     var storyDivs = document.getElementsByClassName("story");
-    for (i = 0; i < storyDivs.length; i++) {
-        storyDivs[i].classList.add("show");
-    }
+    Array.from(storyDivs).forEach(storyDiv => storyDiv.classList.add("show"));
 }
 
 function hideAll() {
     // For each element with class "story", 
     // remove the class "show"
     var storyDivs = document.getElementsByClassName("story");
-    for (i = 0; i < storyDivs.length; i++) {
-        storyDivs[i].classList.remove("show");
-    }
+    Array.from(storyDivs).forEach(storyDiv => storyDiv.classList.remove("show"));
 }
 
 function toggleCategory(source, category) {
@@ -81,10 +64,7 @@ function toggleAll(source) {
 
     // Make the other checkboxes match the state of the "Show All" check box
     var checkboxes = document.querySelectorAll('input[type="checkbox"]');
-    for (var i = 0; i < checkboxes.length; i++) {
-        if (checkboxes[i] != source)
-            checkboxes[i].checked = source.checked;
-    }
+    Array.from(checkboxes).forEach(checkbox => {if (checkbox != source) checkbox.checked = source.checked})
 }
 
 function expandCollapseAll(source) {
@@ -93,15 +73,11 @@ function expandCollapseAll(source) {
     if (source.innerHTML=="Expand All") {
         // Change the button text and expand all
         source.innerHTML = "Collapse All";
-        for (i = 0; i < expandables.length; i++) {
-            expandables[i].setAttribute("open", "");
-        }
+        Array.from(expandables).forEach(expandable => expandable.setAttribute("open", ""))
     } else {
         // Change the button text and collapse all
         source.innerHTML= "Expand All";
-        for (i = 0; i < expandables.length; i++) {
-            expandables[i].removeAttribute("open")
-        }
+        Array.from(expandables).forEach(expandable => expandable.removeAttribute("open"))
     }
 }
 

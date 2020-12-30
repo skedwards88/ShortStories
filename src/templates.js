@@ -3,15 +3,10 @@ const config = require("./config");
 
 function buildStory(story) {
     // Get the story's categories
-    let tags = []
-    for (i = 0; i < config.dev.categories.length; i++) {
-        if (story.attributes.categories[config.dev.categories[i]]) {
-            tags.push(config.dev.categories[i])
-        }
-    }
+    var tags = config.dev.categories.filter(category => story.attributes.categories[category])
 
     return `
-        <div class="${'story show ' + tags.map(tag => tag.replace(/\s+/g, '')).join(", ")}">
+        <div class="${'story show ' + tags.map(tag => tag.replace(/\s+/g, '')).join(" ")}">
             <details>
             <summary>${story.attributes.title}</summary>
             <div class="content">
