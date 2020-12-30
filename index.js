@@ -1,5 +1,6 @@
 // front matter linter for categories--must have one cat true, must only have allowed tags, no dup tags
 // get asteroid story
+// make wokflow that runs npm build and saves file to repo
 
 function show(category) {
     // For each element with class "story", 

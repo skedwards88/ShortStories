@@ -62,7 +62,8 @@ function buildHTML(stories) {
     </div>
 
     <footer>
-        <p>Find the source code for this static site generator on <a href="https://github.com/skedwards88/ShortStories">GitHub</a></p>
+        <p>Find the source code for the static site generator used to build this site on <a href="https://github.com/skedwards88/ShortStories">GitHub</a>.</p>
+        <p>Last updated at ${new Date()}</p>
         ${`<p>&#169; ${new Date().getFullYear()} ${config.authorName}</p>`}
     </footer>
 
