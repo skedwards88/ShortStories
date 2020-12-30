@@ -1,0 +1,17 @@
+name: Build
+
+on: [workflow_dispatch] # TODO change to push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: check out repo content
+      uses: actions/checkout@v2
+    - name: Set up Node.js 
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12.x
+    - run: npm install
+    - run: npm run build
