@@ -1,14 +1,21 @@
 # ShortStories
 
-A simple static site generator to share short stories. To view the stories, visit https://skedwards88.github.io/ShortStories/.
+A simple static site generator to share short stories. To view the stories, visit [Short Stories](https://skedwards88.github.io/ShortStories/).
 
-Each story is saved as a markdown file in the `contents` directory. Front matter contains metadata about the story, including its genres and publication date (as a unix timestamp).
+## The Stories
 
-Some of these stories were originally posted on reddit. `.github/workflows/story_collector.yml` and `story_collector.py` use the reddit API to collect the stories, format each story post into a markdown file with relevant front matter, and save the files to an artifact.
+Each story is saved as a markdown file in the `contents` directory. Front matter contains data about the story, including its genres, title, and publication date (as a unix timestamp).
 
-`src/templates.js` contains template literals that 
-`build.js` generates the HTML for the short story site, using `templates.js`
+Some of these stories were originally posted on reddit. `.github/workflows/story_collector.yml` and `story_collector.py` use the reddit API to collect the stories, format each story post into a markdown file with relevant front matter, and save the files as an artifact.
 
-Styling and scripts for the output HTML file are in `index.css` and `index.js`. 
+## The Static Site Generator
 
-To build the html file, run `npm run build`.
+`src/templates.js` contains template literals that outline the HTML structure.
+
+`build.js` uses the `front-matter` and `marked` libraries to pull out the front matter data and to markup the stories in HTML. It then uses the templates in `src/templates.js` to generate `index.html`, the main page of the site.
+
+A workflow, `.github/workflows/build.yml`, will build and push `index.html` any time changes are made to the `contents` directory (the stories) or the `src` directory (the build code).
+
+## The Site
+
+Styling and scripts for the are in `index.css` and `index.js`. Images are in `images/`.
