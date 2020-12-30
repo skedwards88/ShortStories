@@ -29,7 +29,7 @@ function hide(genre) {
             if (!checkedStoryGenres.length) {
                 storyDiv.classList.remove("show");
             }
-        }        
+        }
     })
 }
 

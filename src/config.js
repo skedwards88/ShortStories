@@ -5,14 +5,14 @@ const config = {
   dev: {
     contentDir: "./content",
     genres: [
-      "Fantasy", 
-      "SciFi", 
-      "Magical Realism", 
-      "Humor", 
-      "Horror", 
-      "Poetry", 
+      "Fantasy",
+      "SciFi",
+      "Magical Realism",
+      "Humor",
+      "Horror",
+      "Poetry",
       "Micro"
-      ]
+    ]
   }
 };
 

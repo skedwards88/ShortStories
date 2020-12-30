@@ -28,5 +28,5 @@ function writeHTML(stories) {
         console.log(`index.html was created successfully`);
     });
 };
-    
+
 writeHTML(stories);
