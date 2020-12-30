@@ -17,13 +17,13 @@ It had been centuries since I was summoned. Last time, the blood of 100 virgins 
 
 As the long years stretched by, that meager sustenance was wearing thin. Had the humans forgotten me, the greatest of all demons?
 
-My inferior demonic brethren were less fortunate. One by one they succumbed to the final darkness, their screams little more than a faded whisper as their weakened forms turned to dust. I was all that was left. Moloch'ai Terranous, King of the Demons... king of nothing.
+My inferior demonic brethren were less fortunate. One by one, they succumbed to the final darkness, their screams little more than a faded whisper as their weakened forms turned to dust. I was all that was left. Moloch'ai Terranous, King of the Demons... king of nothing.
 
 So when I finally heard my name through the aether, felt the pull forward the light at the edge of the shadow realms, I wasn't in a state to resist.
 
-Blinking, I surveyed my surroundings. Calling it a pentagram with an altar of blood in the center would be generous. The fact that the penetagram was drawn in chalk and the alter was a stool with a cheap bowl wasn't lost on me, but I wasn't in a position to be picky.
+Blinking, I surveyed my surroundings. Calling it a pentagram with an altar of blood in the center would be generous. The fact that the penetagram was drawn in chalk and the altar was a stool with a cheap bowl wasn't lost on me, but I wasn't in a position to be picky.
 
-Greedily, I gulped down the blood, feeling power returning. As I drained the bowl I noticed, painted at the bottom of the bowl, a white cat raising it's paw as if in greeting. Strange... Perhaps it was some minor deity of this new age.
+Greedily, I gulped down the blood, feeling power returning. As I drained the bowl I noticed, painted at the bottom of the bowl, a white cat raising its paw as if in greeting. Strange... Perhaps it was some minor deity of this new age.
 
 I turned my attention to the summoner, and was surprised to see a little girl, barely 12 years old, if that.
 
@@ -55,7 +55,7 @@ I could tell she was telling the truth, and couldn't fault her logic. I decided 
 
 She handed me a slip of paper. My demon senses tingled with foreboding; this would be my most difficult battle yet. On the paper was an appointment for a meeting with the principal and Tracy's mom, Karen Miller.
 
-~-~-~
+...
 
 The morning light shone through the attic windows. Jenna, the girl who summoned me, was sitting on the ancient tome she found in the attic, which had taught her how to summon me. We had been up all night, planning.
 
