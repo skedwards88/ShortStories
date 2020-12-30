@@ -23,7 +23,7 @@ I got bored of the "good" route after the first day. The "evildoer" route, on th
 
 Like a guy's pair of shoes? Mug him in an alley.
 
-Someone mouthing off to you? Maybe its time he didn't bother you, or anyone else, again.
+Someone mouthing off to you? Maybe it's time he didn't bother you, or anyone else, again.
 
 Low on cash? Theres a bank around the corner and the sheriff's on the other side of town.
 
