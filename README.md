@@ -6,7 +6,7 @@ Each story is saved as a markdown file in the `contents` directory. Front matter
 
 Some of these stories were originally posted on reddit. `.github/workflows/story_collector.yml` and `story_collector.py` use the reddit API to collect the stories, format each story post into a markdown file with relevant front matter, and save the files to an artifact.
 
-
+`src/templates.js` contains template literals that 
 `build.js` generates the HTML for the short story site, using `templates.js`
 
 Styling and scripts for the output HTML file are in `index.css` and `index.js`. 

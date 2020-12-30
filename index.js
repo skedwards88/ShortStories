@@ -1,5 +1,4 @@
 // front matter linter for categories--must have one cat true, must only have allowed tags, no dup tags
-// way to control font size on mobile?
 // get asteroid story
 
 function show(category) {
@@ -101,4 +100,27 @@ function toggleMenu() {
         menu.style.display = "flex";
     }
   }
-  
+
+function changeFont(increment) {
+    // These are the supported font-size key words
+    // It would be better to avoid hard-coding this, but also make sure the 
+    // font-size is accessibility-friendly (e.g. still don't hardcode pixel font sizes)
+    sizes = [
+        "xx-small",
+        "x-small",
+        "small",
+        "medium",
+        "large",
+        "x-large",
+        "xx-large",
+        "xxx-large"
+    ];
+    var stories = document.getElementById("stories");
+    // If font-size is not set, use medium
+    var currentSize = stories.style["font-size"] ? stories.style["font-size"] : "medium";
+    // Set the new font size to the next size up (unless the font size is maxed out)
+    var newSize = sizes[sizes.indexOf(currentSize) + increment];
+    if (newSize) {
+        stories.style["font-size"] = newSize
+    }
+}

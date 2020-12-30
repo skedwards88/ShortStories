@@ -1,4 +1,3 @@
-const fs = require("fs");
 const config = require("./config");
 
 function buildStory(story) {
@@ -54,6 +53,8 @@ function buildHTML(stories) {
             <div id="control-buttons">
                 <button id="showHideButton" class="control-button" onclick="expandCollapseAll(this)">Expand All</button>
                 <button id="reverseOrder" class="control-button" onclick="reverseOrder(this)">Oldest First</button>
+                <button id="font-up" class="control-button" onClick="changeFont(1)">Increase Font</button>
+                <button id="font-down" class="control-button" onClick="changeFont(-1)">Decrease Font</button>
             </div>
         </div>
     </header>
