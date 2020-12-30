@@ -4,7 +4,7 @@ author: Colin Thom
 date_utc: 1600956855.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/iys5bz/wp_in_the_afterlife_souls_can_see_how_many_living/
-categories:
+genres:
   Fantasy: false
   SciFi: false
   Humor: true

@@ -4,7 +4,7 @@ author: Colin Thom
 date_utc: 1546713420.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/acwlvw/wp_you_were_one_of_the_chosen_heroes_tasked_with/
-categories:
+genres:
   Fantasy: true
   SciFi: true
   Humor: false

@@ -4,7 +4,7 @@ author: Colin Thom
 date_utc: 1559701069.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/bwvmzs/wp_shortly_after_marrying_into_an_unbelievably/
-categories:
+genres:
   Fantasy: false
   SciFi: true
   Humor: false

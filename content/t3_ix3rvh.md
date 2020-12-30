@@ -4,7 +4,7 @@ author: Colin Thom
 date_utc: 1600741493.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/ix3rvh/wp_no_no_you_dont_understand_theyre_not_real_they/
-categories:
+genres:
   Fantasy: false
   SciFi: true
   Humor: false

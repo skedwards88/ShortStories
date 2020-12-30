@@ -1,32 +1,36 @@
-// front matter linter for categories--must have one cat true, must only have allowed tags, no dup tags
+// front matter linter for genres--must have one genre true, must only have allowed genres, no dup genres
 // get asteroid story
 // make wokflow that runs npm build and saves file to repo
 
-function show(category) {
+function show(genre) {
     // For each element with class "story", 
-    // if the element also has the class [category], 
+    // if the element also has the input genre in its class, 
     // add the class "show"
     var storyDivs = document.getElementsByClassName("story");
-    Array.from(storyDivs).forEach(storyDiv => {if (storyDiv.classList.contains(category)) storyDiv.classList.add("show")});
+    Array.from(storyDivs).forEach(storyDiv => {
+        if (storyDiv.classList.contains(genre)) storyDiv.classList.add("show")
+    });
 }
 
-function hide(category) {
-    // Figure out which categories are checked
-    var checkboxes = document.getElementsByClassName('category');
-    var checkedCategories = Array.from(checkboxes).filter(checkbox => checkbox.checked).map(checkbox => checkbox.name);
+function hide(genre) {
+    // Figure out which genres are checked
+    var checkboxes = document.getElementsByClassName('genre');
+    var checkedGenres = Array.from(checkboxes)
+        .filter(checkbox => checkbox.checked)
+        .map(checkbox => checkbox.name);
 
     // For each element with class "story", 
-    // If the story's categories do not match any of the checked categories, 
+    // If the story's genres do not match any of the checked genres, 
     // remove the class "show"
     var storyDivs = document.getElementsByClassName("story");
-    for (i = 0; i < storyDivs.length; i++) {
-        if (storyDivs[i].classList.contains(category)) {
-            var checkedStoryCategories = checkedCategories.filter(checked => storyDivs[i].classList.contains(checked));
-            if (checkedStoryCategories.length === 0) {
-                storyDivs[i].classList.remove("show");
+    Array.from(storyDivs).forEach(storyDiv => {
+        if (storyDiv.classList.contains(genre)) {
+            var checkedStoryGenres = checkedGenres.filter(checked => storyDiv.classList.contains(checked));
+            if (!checkedStoryGenres.length) {
+                storyDiv.classList.remove("show");
             }
-        }
-    }
+        }        
+    })
 }
 
 function showAll() {
@@ -43,11 +47,11 @@ function hideAll() {
     Array.from(storyDivs).forEach(storyDiv => storyDiv.classList.remove("show"));
 }
 
-function toggleCategory(source, category) {
+function toggleGenre(source, genre) {
     if (source.checked) {
-        show(category);
+        show(genre);
     } else {
-        hide(category);
+        hide(genre);
         // Uncheck the "Show All" box
         var checkAllBox = document.getElementById("checkAll")
         checkAllBox.checked = false;
@@ -62,21 +66,21 @@ function toggleAll(source) {
         hideAll();
     }
 
-    // Make the other checkboxes match the state of the "Show All" check box
+    // Make the other checkboxes match the state of the "Show All" checkbox
     var checkboxes = document.querySelectorAll('input[type="checkbox"]');
-    Array.from(checkboxes).forEach(checkbox => {if (checkbox != source) checkbox.checked = source.checked})
+    Array.from(checkboxes).forEach(checkbox => { if (checkbox != source) checkbox.checked = source.checked })
 }
 
 function expandCollapseAll(source) {
     var expandables = document.getElementsByTagName("details");
 
-    if (source.innerHTML=="Expand All") {
+    if (source.innerHTML == "Expand All") {
         // Change the button text and expand all
         source.innerHTML = "Collapse All";
         Array.from(expandables).forEach(expandable => expandable.setAttribute("open", ""))
     } else {
         // Change the button text and collapse all
-        source.innerHTML= "Expand All";
+        source.innerHTML = "Expand All";
         Array.from(expandables).forEach(expandable => expandable.removeAttribute("open"))
     }
 }
@@ -84,7 +88,7 @@ function expandCollapseAll(source) {
 function reverseOrder(source) {
     // Change the button text and reverse row order
     var stories = document.getElementById("stories");
-    if (source.innerHTML=="Oldest First") {
+    if (source.innerHTML == "Oldest First") {
         source.innerHTML = "Newest first";
         stories.style.flexDirection = "column-reverse"
     } else {
@@ -94,18 +98,19 @@ function reverseOrder(source) {
 }
 
 function toggleMenu() {
+    // Show or hid the menu controls
     var menu = document.getElementById("controls");
     if (menu.style.display === "flex") {
         menu.style.display = "none";
     } else {
         menu.style.display = "flex";
     }
-  }
+}
 
 function changeFont(increment) {
     // These are the supported font-size key words
     // It would be better to avoid hard-coding this, but also make sure the 
-    // font-size is accessibility-friendly (e.g. still don't hardcode pixel font sizes)
+    // font-size is accessibility-friendly (e.g. still don't specify pixel font sizes)
     sizes = [
         "xx-small",
         "x-small",

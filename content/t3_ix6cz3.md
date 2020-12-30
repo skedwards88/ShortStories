@@ -4,7 +4,7 @@ author: Sarah Edwards
 date_utc: 1600745878.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/ix6cz3/wp_being_the_devils_offspring_means_that_youre/
-categories:
+genres:
   Fantasy: false
   SciFi: false
   Humor: true

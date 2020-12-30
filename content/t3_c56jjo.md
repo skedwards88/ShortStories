@@ -4,7 +4,7 @@ author: Colin Thom
 date_utc: 1561475982.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/c56jjo/wp_you_are_eating_a_midnight_snack_and_a_serial/
-categories:
+genres:
   Fantasy: false
   SciFi: false
   Humor: false

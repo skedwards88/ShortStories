@@ -4,7 +4,7 @@ author: Sarah Edwards
 date_utc: 1561475982.0
 edited: true
 permalink: null
-categories:
+genres:
   Fantasy: false
   SciFi: false
   Humor: true

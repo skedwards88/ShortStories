@@ -4,7 +4,7 @@ author: Colin Thom
 date_utc: 1552571007.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/b0yubn/wp_you_are_the_chosen_one_you_go_to_kill_the_evil/
-categories:
+genres:
   Fantasy: false
   SciFi: false
   Humor: true

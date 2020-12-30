@@ -4,7 +4,7 @@ author: Colin Thom
 date_utc: 1546481258.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/ac03ca/wp_you_have_a_time_machine_which_can_only_go_into/
-categories:
+genres:
   Fantasy: false
   SciFi: true
   Humor: false

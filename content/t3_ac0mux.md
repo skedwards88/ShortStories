@@ -4,7 +4,7 @@ author: Colin Thom
 date_utc: 1546483660.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/ac0mux/wp_youve_accidentally_summoned_an_ancient/
-categories:
+genres:
   Fantasy: true
   SciFi: false
   Humor: true

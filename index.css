@@ -64,7 +64,7 @@ button:focus {
   color: var(--dark-text);
 }
 
-#categories {
+#genres {
   margin-right: 20px;
 }
 
@@ -98,7 +98,7 @@ button:focus {
   display: none;
 }
 
-.tags {
+.genres {
   text-align: right;
   font-size: smaller;
   font-style: italic;

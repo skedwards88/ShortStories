@@ -4,7 +4,7 @@ author: Colin Thom
 date_utc: 1538037296.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/9jaduj/wp1000_years_ago_scientists_have_found_a_way_to/
-categories:
+genres:
   Fantasy: false
   SciFi: true
   Humor: true

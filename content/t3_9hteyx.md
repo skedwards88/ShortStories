@@ -4,7 +4,7 @@ author: Colin Thom
 date_utc: 1537569138.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/9hteyx/wplove_is_in_the_air_wear_a_gas_mask/
-categories:
+genres:
   Fantasy: false
   SciFi: false
   Magical Realism: true

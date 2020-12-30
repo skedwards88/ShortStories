@@ -4,7 +4,7 @@ author: Colin Thom
 date_utc: 1537149701.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/9geejr/wp_while_driving_you_hit_and_kill_a_boy_you_feel/
-categories:
+genres:
   Humor: false
   Magical Realism: true
   Fantasy: false

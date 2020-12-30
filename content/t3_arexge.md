@@ -4,7 +4,7 @@ author: Colin Thom
 date_utc: 1550381948.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/arexge/wptheyre_not_the_best_dark_cultists_they_mumble/
-categories:
+genres:
   Fantasy: true
   SciFi: false
   Humor: true

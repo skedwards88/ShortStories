@@ -4,7 +4,7 @@ author: Colin Thom
 date_utc: 1568103809.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/d22pvo/wp_youre_a_gravekeeper_the_dead_are_buried_with/
-categories:
+genres:
   Fantasy: false
   SciFi: false
   Humor: false

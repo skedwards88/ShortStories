@@ -1,15 +1,19 @@
 const config = require("./config");
 
 function buildStory(story) {
-    // Get the story's categories
-    var tags = config.dev.categories.filter(category => story.attributes.categories[category])
+    // Get the story's genres. 
+    // These will be used in the class list to 
+    // determine whether the story should be displayed.
+    // White spaces in genre names are removed since 
+    // spaces delineate a new class name.
+    var genres = config.dev.genres.filter(genre => story.attributes.genres[genre])
 
     return `
-        <div class="${'story show ' + tags.map(tag => tag.replace(/\s+/g, '')).join(" ")}">
+        <div class="${'story show ' + genres.map(genre => genre.replace(/\s+/g, '')).join(" ")}">
             <details>
             <summary>${story.attributes.title}</summary>
             <div class="content">
-                <div class="tags">${tags.join(", ")}</div>
+                <div class="genres">${genres.join(", ")}</div>
                 ${story.body}\
             </div>
         </div>`
@@ -17,7 +21,7 @@ function buildStory(story) {
 
 function buildCheckbox(label) {
     return `
-                <input type="checkbox" checked="true" id="${label.replace(/\s+/g, '')}" name="${label.replace(/\s+/g, '')}" class="category" onclick="toggleCategory(this, '${label.replace(/\s+/g, '')}')">
+                <input type="checkbox" checked="true" id="${label.replace(/\s+/g, '')}" name="${label.replace(/\s+/g, '')}" class="genre" onclick="toggleGenre(this, '${label.replace(/\s+/g, '')}')">
                 <label for="${label.replace(/\s+/g, '')}">${label}</label><br>`
 }
 
@@ -45,10 +49,10 @@ function buildHTML(stories) {
             </div>
         </div>
         <div id="controls">
-            <div id="categories">
+            <div id="genres">
                 <input type="checkbox" checked="true" id="checkAll" name="checkAll" onclick="toggleAll(this)">
                 <label for="checkAll">Show All</label><br>\
-                ${config.dev.categories.map(category => buildCheckbox(category)).join("")}
+                ${config.dev.genres.map(genre => buildCheckbox(genre)).join("")}
             </div>
             <div id="control-buttons">
                 <button id="showHideButton" class="control-button" onclick="expandCollapseAll(this)">Expand All</button>

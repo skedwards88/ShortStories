@@ -4,7 +4,7 @@ author: Colin Thom
 date_utc: 1521600658.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/85wotx/wp_everybody_assumes_that_the_onion_is_satire_but/
-categories:
+genres:
   Humor: true
   Magical Realism: true
   Fantasy: false
