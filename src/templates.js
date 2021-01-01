@@ -6,7 +6,7 @@ function buildStory(story) {
     // determine whether the story should be displayed.
     // White spaces in genre names are removed since 
     // spaces delineate a new class name.
-    var genres = config.dev.genres.filter(genre => story.attributes.genres[genre])
+    let genres = config.dev.genres.filter(genre => story.attributes.genres[genre])
 
     return `
         <div class="${'story show ' + genres.map(genre => genre.replace(/\s+/g, '')).join(" ")}">
