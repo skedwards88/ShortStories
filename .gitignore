@@ -2,3 +2,4 @@ venv
 .vscode
 node_modules
 raw_stories
+.DS_Store
