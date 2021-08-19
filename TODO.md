@@ -1,0 +1,3 @@
+- set up linter/tests
+- also include prompts
+- set up auto deploy
