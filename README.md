@@ -19,3 +19,9 @@ A workflow, `.github/workflows/build.yml`, will build and push `index.html` any 
 ## The Site
 
 Styling and scripts for the are in `index.css` and `index.js`. Images are in `images/`.
+
+---
+
+Do you have feedback or ideas for improvement? [Open an issue](https://github.com/skedwards88/ShortStories/issues/new).
+
+Want more fun projects? Visit [CnS Games](https://skedwards88.github.io/portfolio/).
