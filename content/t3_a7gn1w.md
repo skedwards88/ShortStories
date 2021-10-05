@@ -25,7 +25,7 @@ I laughed. Usually the agents at least pretended they planned to let me live if 
 
 "I'll give you marks for honesty." I said, stalling for time.
 
-The man took another step into the allay and lifted his arm. His black gloved hand held a pistol, its silencer extending toward me like an accusing finger.
+The man took another step into the alley and lifted his arm. His black gloved hand held a pistol, its silencer extending toward me like an accusing finger.
 
 I frowned; it usually didn't take this long.
 

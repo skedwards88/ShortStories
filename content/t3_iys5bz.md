@@ -23,7 +23,7 @@ After the first week, the voices dropped off rapidly. Sure, there was a little s
 
 I drifted through the void, waiting between times that people would speak or think of me. The waits got longer and longer, until even my intangible form started to fade.
 
-It wasn’t uncommon. Only a small number of us, celebrities, billionaires and world leaders mostly, could survive the afterlife for long. As the decades passed, a few even became more popular, their spirit forms more vibrant. David Attenborough was one of these. His narration of *Planet Earth* became the only way people could remember the earth that had one existed, the diversity of life that existed before global warming went on its rampage.
+It wasn’t uncommon. Only a small number of us, celebrities, billionaires and world leaders mostly, could survive the afterlife for long. As the decades passed, a few even became more popular, their spirit forms more vibrant. David Attenborough was one of these. His narration of *Planet Earth* became the only way people could remember the earth that had once existed, the diversity of life that existed before global warming went on its rampage.
 
 But most of us, we faded. About 200 years after my passing, I was fully forgotten. Even I forgot myself as I disappeared into the void...
 

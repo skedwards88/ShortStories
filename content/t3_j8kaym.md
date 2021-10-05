@@ -21,7 +21,7 @@ When I had seen the word "Atheist" stamped across my folder in big red letters, 
 
 "No, it even says 'unrepentant' there." I informed him, pointing to a page.
 
-"Yes, yes." Peter said, his voice edging on desperation. "But, you know, if you were to say you had, whose to say differently? I would sign of on it and we could get you in." He gestured at the pearly gates, which now that I looked at them, showed sins of disrepair. Flecks of paint were pealing off the bars.
+"Yes, yes." Peter said, his voice edging on desperation. "But, you know, if you were to say you had, whose to say differently? I would sign of on it and we could get you in." He gestured at the pearly gates, which now that I looked at them, showed signs of disrepair. Flecks of paint were pealing off the bars.
 
 "But that would be a lie."
 

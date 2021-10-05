@@ -37,7 +37,7 @@ I batted my eyelashes and purred, “Sorry. I just hate seeing those butts on th
 
 “You know,” I gave him a shy smile as we continued walking. “I wonder why a handsome man like you goes and ruins his breath with cigarettes. You look like you’d be a good kisser otherwise.”
 
-I stopped walking as we reached a public ashtray and dropped the cigarette but in. Ogling at me, the guy pulled out his pack of cigarettes and tossed them in the neighboring trash can.
+I stopped walking as we reached a public ashtray and dropped the cigarette butt in. Ogling at me, the guy pulled out his pack of cigarettes and tossed them in the neighboring trash can.
 
 “Well, this is my stop.” I gestured to the building behind me. “Nice meeting you.”
 
