@@ -35,13 +35,14 @@ while num_comments == limit:
                 f'date_utc: {comment["data"]["created_utc"]}',
                 'edited: true',
                 f'permalink: {comment["data"]["link_permalink"]}',
-                'Fantasy: false',
-                'SciFi: false',
-                'Magical Realism: false',
-                'Humor: false',
-                'Horror: false',
-                'Poetry: false',
-                'Micro: false',
+                'genres:'
+                '  Fantasy: false',
+                '  SciFi: false',
+                '  Magical Realism: false',
+                '  Humor: false',
+                '  Horror: false',
+                '  Poetry: false',
+                '  Micro: false',
                 '---',
                 f'{comment["data"]["body"]}'
             ])
