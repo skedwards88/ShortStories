@@ -5,7 +5,7 @@ date_utc: 1630387993.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/peywo4/sp_the_ai_has_gone_rouge_but_instead_of_killing/
 Fantasy: false
-SciFi: false
+SciFi: true
 Magical Realism: false
 Humor: false
 Horror: false

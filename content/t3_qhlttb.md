@@ -8,7 +8,7 @@ Fantasy: false
 SciFi: false
 Magical Realism: false
 Humor: false
-Horror: false
+Horror: true
 Poetry: false
 Micro: false
 ---

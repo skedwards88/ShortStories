@@ -6,7 +6,7 @@ edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/ml8sdb/wp_an_immortal_being_occasionally_traps_people_in/
 Fantasy: false
 SciFi: false
-Magical Realism: false
+Magical Realism: true
 Humor: false
 Horror: false
 Poetry: false

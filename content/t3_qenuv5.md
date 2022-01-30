@@ -6,7 +6,7 @@ edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/qenuv5/wp_most_people_think_of_demonic_possession_as_a/
 Fantasy: false
 SciFi: false
-Magical Realism: false
+Magical Realism: true
 Humor: false
 Horror: false
 Poetry: false

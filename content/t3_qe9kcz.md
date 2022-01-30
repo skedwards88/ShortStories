@@ -5,9 +5,9 @@ date_utc: 1635029928.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/qe9kcz/wp_if_you_wanna_find_out_what_something_does_seek/
 Fantasy: false
-SciFi: false
+SciFi: true
 Magical Realism: false
-Humor: false
+Humor: true
 Horror: false
 Poetry: false
 Micro: false

@@ -7,7 +7,7 @@ permalink: https://www.reddit.com/r/WritingPrompts/comments/qoeizb/wp_they_found
 Fantasy: false
 SciFi: false
 Magical Realism: false
-Humor: false
+Humor: true
 Horror: false
 Poetry: false
 Micro: false
