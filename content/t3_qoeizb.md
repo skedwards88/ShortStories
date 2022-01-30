@@ -1,5 +1,5 @@
 ---
-title: Cereal killer
+title: Cereal Killer
 author: Sarah Edwards
 date_utc: 1636299355.0
 edited: true

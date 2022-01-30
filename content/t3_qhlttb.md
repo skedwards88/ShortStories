@@ -1,5 +1,5 @@
 ---
-title: High protein liquid diet 
+title: High Protein Liquid Diet 
 author: Colin Thom
 date_utc: 1635455505.0
 edited: true
