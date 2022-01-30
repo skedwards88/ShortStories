@@ -9,6 +9,10 @@ on:
       - 'src/**'
   workflow_dispatch:
 
+concurrency:
+  group: build-deploy
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -16,12 +20,16 @@ jobs:
 
     - name: check out repo content
       uses: actions/checkout@v2
+
     - name: Set up Node.js 
       uses: actions/setup-node@v1
       with:
         node-version: 12.x
+
     - run: npm install
+
     - run: npm run build
+
     - name: push changes to remote
       run: |
         git config --global user.name "skedwards88"
