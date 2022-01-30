@@ -4,13 +4,14 @@ author: Colin Thom
 date_utc: 1635073636.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/qenuv5/wp_most_people_think_of_demonic_possession_as_a/
-Fantasy: false
-SciFi: false
-Magical Realism: true
-Humor: false
-Horror: false
-Poetry: false
-Micro: false
+genres:
+  Fantasy: false
+  SciFi: false
+  Magical Realism: true
+  Humor: false
+  Horror: false
+  Poetry: false
+  Micro: false
 ---
 
 _Prompt: Most people think of demonic possession as a bad thing, but that’s just because they don’t charge the demons rent._

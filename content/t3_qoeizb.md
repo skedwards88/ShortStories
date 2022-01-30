@@ -4,13 +4,14 @@ author: Sarah Edwards
 date_utc: 1636299355.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/qoeizb/wp_they_found_the_first_body_by_the_lake_mouth/
-Fantasy: false
-SciFi: false
-Magical Realism: false
-Humor: true
-Horror: false
-Poetry: false
-Micro: false
+genres:
+  Fantasy: false
+  SciFi: false
+  Magical Realism: false
+  Humor: true
+  Horror: false
+  Poetry: false
+  Micro: false
 ---
 
 _Prompt: They found the first body by the lake, mouth stuffed full of corn flakes. The second was found lying facedown in a bowl of Cheerios. By the time they found the third, covered in pop tarts, they knew: there was a cereal killer on the loose._

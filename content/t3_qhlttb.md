@@ -4,13 +4,14 @@ author: Colin Thom
 date_utc: 1635455505.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/qhlttb/wp_every_day_he_stops_for_breakfast_at_the_same/
-Fantasy: false
-SciFi: false
-Magical Realism: false
-Humor: false
-Horror: true
-Poetry: false
-Micro: false
+genres:
+  Fantasy: false
+  SciFi: false
+  Magical Realism: false
+  Humor: false
+  Horror: true
+  Poetry: false
+  Micro: false
 ---
 
 _Prompt: Every day he stops for breakfast at the same diner. Every day he orders the same exact thing. Today he didn't. This was the first sign._

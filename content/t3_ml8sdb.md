@@ -4,13 +4,14 @@ author: Colin Thom
 date_utc: 1617724781.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/ml8sdb/wp_an_immortal_being_occasionally_traps_people_in/
-Fantasy: false
-SciFi: false
-Magical Realism: true
-Humor: false
-Horror: false
-Poetry: false
-Micro: false
+genres:
+  Fantasy: false
+  SciFi: false
+  Magical Realism: true
+  Humor: false
+  Horror: false
+  Poetry: false
+  Micro: false
 ---
 
 _Prompt: An immortal being occasionally traps people in a pocket dimension until they agree to play chess with him, for fun. It’s been 3 months since the last human was transported there, and they still haven’t left._

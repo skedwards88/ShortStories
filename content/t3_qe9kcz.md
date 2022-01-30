@@ -4,13 +4,14 @@ author: Colin Thom
 date_utc: 1635029928.0
 edited: true
 permalink: https://www.reddit.com/r/WritingPrompts/comments/qe9kcz/wp_if_you_wanna_find_out_what_something_does_seek/
-Fantasy: false
-SciFi: true
-Magical Realism: false
-Humor: true
-Horror: false
-Poetry: false
-Micro: false
+genres:
+  Fantasy: false
+  SciFi: true
+  Magical Realism: false
+  Humor: true
+  Horror: false
+  Poetry: false
+  Micro: false
 ---
 
 _Prompt: If you wanna find out what something does, seek out a Human and let them figure it out. That species has an ...uncanny ability of making use out of the most mundane or the most advanced piece of technology in unexpected ways._
