@@ -1,12 +1,12 @@
 # ShortStories
 
-A simple static site generator to share short stories. To view the stories, visit [Short Stories](https://skedwards88.github.io/ShortStories/).
+A simple static site generator to share short stories by Colin and Sarah. To view the stories, visit [Short Stories](https://skedwards88.github.io/ShortStories/).
 
 ## The Stories
 
-Each story is saved as a markdown file in the `contents` directory. Front matter contains data about the story, including its genres, title, and publication date (as a unix timestamp).
+Each story is saved as a markdown file in the `content` directory. Front matter contains data about the story, including its genres, title, and publication date (as a unix timestamp).
 
-Some of these stories were originally posted on reddit. `.github/workflows/story_collector.yml` and `story_collector.py` use the reddit API to collect the stories, format each story post into a markdown file with relevant front matter, and save the files as an artifact.
+Some of these stories were originally posted on Reddit by Colin. `.github/workflows/story_collector.yml` and `story_collector.py` use the reddit API to collect the stories, format each story post into a markdown file with relevant front matter, and save the files as an artifact.
 
 ## The Static Site Generator
 
